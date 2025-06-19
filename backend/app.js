@@ -1,19 +1,39 @@
+import fs from 'fs/promises';
 import {token, projectId} from './config.js'
 
 const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
-// const filePath = encodeURIComponent('src/cards/unit/Adored City Girl 65556937.yml'); // Find a specific file
-// const fileUrl = `${repositoryPath}/files/${filePath}/raw?ref=${ref}`
-const treePath = encodeURIComponent('src/cards/unit'); // Find a whole folder (or Tree)
-const treeUrl = `${repositoryPath}/tree?path=${treePath}&ref=${ref}`
 
-fetch(`${treeUrl}`,
+
+
+async function fetchPage(cardType, page)
 {
-    headers:
+    const treePath = encodeURIComponent(`src/cards/${cardType}`);
+    const treeUrl = `${repositoryPath}/tree?path=${treePath}&ref=${ref}`
+    let allCards = []; // Array to hold all cards fetched from the API.
+    for (let page = 1; ; page++)
     {
-        'PRIVATE-TOKEN': token
+        const response = await fetch(`${treeUrl}&per_page=100&page=${page}`, 
+        {
+            headers: 
+            {
+                'PRIVATE-TOKEN': token
+            }
+        });
+        let data = await response.json();
+        allCards = allCards.concat(data); // Concatenate the new data to an array for saving it to json file.
+        data.forEach(card => 
+        {
+            console.log(card.name);
+        });
+        if (data.length < 100) 
+        {
+            break;
+        }
     }
-})
-.then(res => res.text())
-.then(data => console.log(data))
-.catch(err => console.error(err));
+    console.log(`Fetched ${allCards.length} cards of type ${cardType}`);
+    await fs.writeFile(`${cardType}.json`, JSON.stringify(allCards, null, 2));
+    console.log(`Saved ${cardType}.json`);
+}
+
+fetchPage('unit', 1);

@@ -1,0 +1,891 @@
+[
+  {
+    "id": "a850e546e3cf19c503c174cf777643e1af3f58b9",
+    "name": "Adored City Girl 65556937.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Adored City Girl 65556937.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "43e2a8b8f5ad169a6329cac247cf8e574fed2eed",
+    "name": "Anomalous Entity 69297559.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Anomalous Entity 69297559.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c1ce63b78fa775e70f95ac2d35387d3110e14f1f",
+    "name": "Art Student 64785392.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Art Student 64785392.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "02caff28bccc1d4de6056292e931cb2b1fcd1b95",
+    "name": "Auto Violinist 69712065.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Auto Violinist 69712065.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "e320fe79f97b5bc608cbd391c406d22d75b8a7ad",
+    "name": "Axe Lobber 67434348.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Axe Lobber 67434348.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "6a9ece124860ede525c43ce6118f95df0ebcc99d",
+    "name": "Baby Wolf 65483194.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Baby Wolf 65483194.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c89495f517d7a57e27b964a4081d0bc5b8b049bd",
+    "name": "Bad Apple 65520528.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Bad Apple 65520528.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "8f3a6788af1a72d295b75a5104e1e986386d7066",
+    "name": "Battle Maid 65662701.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Battle Maid 65662701.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "e0ce5c05981f357c7ff393dfa61ced8c61d151ff",
+    "name": "Best Friend 69712061.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Best Friend 69712061.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f0fd6b269eb9e3eb1935d84237a26fb13cf2f873",
+    "name": "Big Beast 65004549.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Big Beast 65004549.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "ff93acdd3758c54a37f2bc0dbc492b728c72f739",
+    "name": "Blade Stylist 68485294.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Blade Stylist 68485294.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "2d49460c6e4c0fa7946569dcc422d80aa34c1c64",
+    "name": "Bloodthirster 67545250.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Bloodthirster 67545250.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "e8d94534e09c6e419134e2b81c9401a5201cd8d1",
+    "name": "Bouncer 64785393.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Bouncer 64785393.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "7fca89dd945ff351b5ad50afa2886cd9112ed88a",
+    "name": "Boxer 65004550.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Boxer 65004550.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "fea6b8cdfeb0573c3c744c291605a19b47c9d140",
+    "name": "Caller 64784680.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Caller 64784680.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "6c10eeeac4c2b5d66b8bc7403008e042bd694310",
+    "name": "Celestial Titan 64784679.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Celestial Titan 64784679.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "de3e580d9f92c20ba93c863ad7e9efcb77d009e0",
+    "name": "Chasing Dog 65004544.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Chasing Dog 65004544.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "efb5af7ab2a214aa063a737f22d6f51c316411d4",
+    "name": "Child of Nature 64677602.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Child of Nature 64677602.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "4909430f7b34ba8830dc7b691d9a82dbec562ca1",
+    "name": "Clue Finder 67559557.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Clue Finder 67559557.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f4721e91488e76f9a4d7be07ea464eb34d9e644c",
+    "name": "Conservationist 68484060.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Conservationist 68484060.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "cb2a07332943a89c5c33f74dba89d9aba45f915d",
+    "name": "Crazy Zombie 64477041.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Crazy Zombie 64477041.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "50f4e5852558887b713e7f2db73c46588fb4182a",
+    "name": "Cute Badass 67399863.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Cute Badass 67399863.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "e5758b858227692091cfd26a87ba7af5d4818c33",
+    "name": "Dangerous Person 64813225.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Dangerous Person 64813225.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c33f2db35af416bdd05e5d7d47d2c1b253187ad3",
+    "name": "Dark Mage 66059482.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Dark Mage 66059482.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "1e7e166598f10a654f0a74d97a08983de7fa450c",
+    "name": "Delivery Girl 67737136.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Delivery Girl 67737136.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "0cad3ad9b547f923b163001ebfdedbdfc7af1118",
+    "name": "Demolition Expert 67433149.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Demolition Expert 67433149.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c8522e3f19778ceec9a787e6670de34f291433ab",
+    "name": "Demon Dog 64813238.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Demon Dog 64813238.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "cce8641910e2f5662dbb4aa6d1d72290ed0a3242",
+    "name": "Devil Girlfriend 64813228.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Devil Girlfriend 64813228.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "501d880bf11a598a78236e829e3af44a2712b5ec",
+    "name": "Devil Prankster 67559720.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Devil Prankster 67559720.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "d61b0bf80a90e4d6e944829623175f4d02ced332",
+    "name": "Drake 66059491.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Drake 66059491.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "dd3b68dca093cb19d386d3fb3ab837dd399d37e2",
+    "name": "Executive 65004540.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Executive 65004540.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "8c6ec71757465b50eced58751b11ba713523421c",
+    "name": "FBK Prinny 64271352.yml",
+    "type": "blob",
+    "path": "src/cards/unit/FBK Prinny 64271352.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "186135c391d34de9b398df9177c76ae09364879b",
+    "name": "Fall Girl 69279846.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Fall Girl 69279846.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "0df0b2722d261fccc2df1439b97ceed315d77683",
+    "name": "Fantom 69297558.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Fantom 69297558.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "018ab678aa170408cfbee471da62e45fcba5a7e0",
+    "name": "Fast Food Manager 64813223.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Fast Food Manager 64813223.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "30f2eb28dda5d3f191cc7055fa612796c9dd04d0",
+    "name": "Firebird 65199423.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Firebird 65199423.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "ad35abf8d39f32f9a44a3dc4018b00f9bd504d75",
+    "name": "Freebird 65004546.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Freebird 65004546.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f521b36f2a4f051fd41bb92f68d08d5e5eac3fbc",
+    "name": "Galactic Baby 65541077.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Galactic Baby 65541077.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "6cadb51ac91e2d7a68ef0dc18567636220c48a44",
+    "name": "Gang Biker 65520526.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Gang Biker 65520526.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "79826d48be9cc8d142d5c12755de71ed83c7a7cb",
+    "name": "Ganger 65004552.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Ganger 65004552.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "924f5b0c7e2449ad278f6fa561f0781f8ee202b5",
+    "name": "Gift Wrapper 69114630.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Gift Wrapper 69114630.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c4d482585b4ffb7312256425d6dd305a3f738812",
+    "name": "Ginga Gal 65483762.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Ginga Gal 65483762.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "d97da9c86491bb40426f029f84f4821837c55fa4",
+    "name": "Gremlin 67879993.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Gremlin 67879993.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "94cdffc3a53c78a019206fab379f70f3266726fc",
+    "name": "Grim Reaper 65688207.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Grim Reaper 65688207.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "17ec0ec7ccfc4b12fd2bbde972f5625e3564b1b9",
+    "name": "Grim Reaper 66789611.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Grim Reaper 66789611.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f2dab7cc5c4d356daa5317e5f62d2187a69ca491",
+    "name": "Grim Reaper 69297596.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Grim Reaper 69297596.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "802f972bcba1bd682c4971899d682957e61f881e",
+    "name": "Half-Elven Archer 64784701.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Half-Elven Archer 64784701.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "3c7eca85b4fc49800c7a14db98dacde00a5b3ec2",
+    "name": "Handsome Cat 67401559.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Handsome Cat 67401559.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "074addbaaa09be480481e072e743bbf6022e332f",
+    "name": "Harp Player 64813233.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Harp Player 64813233.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "bfc4adfbdf41cedff871c954395180e5bd2c1d97",
+    "name": "History Student 64784678.yml",
+    "type": "blob",
+    "path": "src/cards/unit/History Student 64784678.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "029cd3c3a40ddc0256e1af529174b0181a664519",
+    "name": "Hopemaker 64813224.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Hopemaker 64813224.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "666a3e346de0c8097d8463b5e9e5620364f27f10",
+    "name": "House Cat 69648909.yml",
+    "type": "blob",
+    "path": "src/cards/unit/House Cat 69648909.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "0eb678fb55017860e930abf581864abedb04e8a9",
+    "name": "Huntress 67678545.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Huntress 67678545.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "009cb47e39ba5de51a3cb7cf2ff58a1a257f80f3",
+    "name": "Idol of Worship 68833480.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Idol of Worship 68833480.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "6c980e7252b414ca99a4c08f5f3ab817d5393e6d",
+    "name": "Idolized Performer 65503790.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Idolized Performer 65503790.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "11a13b5e76a80b8a6d2341eada6ebd0bbe473f2e",
+    "name": "Illustrator 65004547.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Illustrator 65004547.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "92b3d966cb0d46a59a4d0b7853756bb1da74ff66",
+    "name": "Injector 67499242.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Injector 67499242.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "53dbfa62fdf24cc10bf21c088650b642e5813330",
+    "name": "Invoker 64784702.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Invoker 64784702.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "081df48d05920ef98cc020c4f2c9767eb6bd4dc0",
+    "name": "Juggler 64893364.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Juggler 64893364.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "fa022792bb671b6bc8fd2f29c1e17a42edf594df",
+    "name": "Kishin 67696205.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Kishin 67696205.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f36d5a05f8a5ae20c364f1b60a22797353b2d9bb",
+    "name": "Knight Champion 64785395.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Knight Champion 64785395.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "becaf9f5312c8747792ef3cfbc491c464238c02b",
+    "name": "Lady of Dawn 64813227.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Lady of Dawn 64813227.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "11fdb32a593d9ccb3585181376dc9c2c60d7d562",
+    "name": "Lesser Thing 64654441.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Lesser Thing 64654441.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "cdfd7f2aef0bd8f6edeef715280a7750611caf17",
+    "name": "Lunar Princess 64185521.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Lunar Princess 64185521.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "93c3dc69530a1bb90d183a337b6c73e1d8d30cff",
+    "name": "Lunar Witch 66059489.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Lunar Witch 66059489.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "5e6fb5f415e92442da0b9beb3612c60157bac9aa",
+    "name": "Lustrous Sleeper 65163170.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Lustrous Sleeper 65163170.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "0266d8af18fdad5cc28ef8543467dd5518bc89ef",
+    "name": "Mage Conduit 68833481.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Mage Conduit 68833481.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "774e9b3c1d265cd445c5f8c5adaa9eecedcad428",
+    "name": "Maiden 65503789.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Maiden 65503789.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c352de6146f1a524eceea529a0b615a76929a577",
+    "name": "Maidenz 66228173.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Maidenz 66228173.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "a4b0d1e95b40bacd3a13e29a6113cf7df02013f5",
+    "name": "Management Trainee 64677964.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Management Trainee 64677964.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "bf6f52d4c93fc715049f5206256d251b6e11a92c",
+    "name": "Management Trainee 65359351.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Management Trainee 65359351.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c6759dd04f31fed0e9f39d0f1340504d38a61171",
+    "name": "Martyr 67348830.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Martyr 67348830.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "2f70b2e90e66edea88f1bdd531665138ec0b9a35",
+    "name": "Oni Ojou 65004541.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Oni Ojou 65004541.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f9c339aabcbbe3c9a87e66eede40d4e09ecc29a8",
+    "name": "Onion 65662696.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Onion 65662696.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "ce21fb36a94eaf23a74567d124c74ce8888d6d4f",
+    "name": "Overzealous Girlfriend 65004545.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Overzealous Girlfriend 65004545.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "cb719a074fe42d24e8738fc4ccfe6170df83e63d",
+    "name": "Overzealous Girlfriend 68846604.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Overzealous Girlfriend 68846604.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "4cae8db7021cfcf036b8bb402a4cd2b50938cdef",
+    "name": "Paygiver 67348829.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Paygiver 67348829.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "694f041eea334e4252a9a67876cec80b4b71017f",
+    "name": "Pencil Sharpener 64813237.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Pencil Sharpener 64813237.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "31ea15d536d02461e08178a254e1e7ae2ccd6dce",
+    "name": "Pirate 64784681.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Pirate 64784681.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f1f52319a05ed4f813e290324416585ff24fa737",
+    "name": "Police 67559908.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Police 67559908.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c13a0b4b00f39ccc1af2a79cc34f4833719c20e1",
+    "name": "Precious Princess 64893362.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Precious Princess 64893362.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c8aa288e0b6c35aeda19dc4ef57f844abdac7c81",
+    "name": "Priority Target 68694991.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Priority Target 68694991.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "877946eeb08f93e7297f0ef2ab4b015b64311ef7",
+    "name": "Psychopath 65004548.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Psychopath 65004548.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "1503557e8e53d52e6a53112ffca1845f7cb3fcbe",
+    "name": "Rain Heart 64813234.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Rain Heart 64813234.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "25b4a75c8594c29bf9fc3a9f68aedaeadd4551fe",
+    "name": "Rapper Sheep 64785394.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Rapper Sheep 64785394.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "8ac18998fd47ddd6e779c508d81c6d0672d5c9ca",
+    "name": "Reanimated Follower 68833479.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Reanimated Follower 68833479.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "6385f0f8d7e2ddbf14cb8fe6ab8810c27ca229d5",
+    "name": "Redemptor 64477038.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Redemptor 64477038.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "29fde37ca7fe8c24e3f810d7cce7b1c31e1effff",
+    "name": "Rising Star 64813226.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Rising Star 64813226.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "38f37b9e70f21d9d61be3d8b678c7d596e7201c6",
+    "name": "Samurai 64893365.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Samurai 64893365.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "db50498020e788ddd5575da088145086d4e71e1e",
+    "name": "Scary Cat 67499243.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Scary Cat 67499243.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f19b3f91fb6d7dcf56fa10bfd57fb0f64147c811",
+    "name": "Scary Dog 67499241.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Scary Dog 67499241.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "5bc7242abffd016abdcb0c9eed959cb5d779075f",
+    "name": "Security Buffer 69648907.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Security Buffer 69648907.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "aceab70bd73867f93e837fdefa8025716d81531e",
+    "name": "Shadow Clone 67830857.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Shadow Clone 67830857.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "a9333a06e397ee3f0e80b1be53229a1cff2b6db1",
+    "name": "Shark Surfer 65004551.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Shark Surfer 65004551.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "5599d66ad1388fbb05c503fc60d5d2ca75ea8d45",
+    "name": "Sheltered Stranger 66228608.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Sheltered Stranger 66228608.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "e156231db1a543f5da72705889cf72fa4998bf88",
+    "name": "Sheltered Stranger 69375218.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Sheltered Stranger 69375218.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "5076a060715451d0140bbe63caf4c7ce945c7165",
+    "name": "Shore Chaser 68398760.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Shore Chaser 68398760.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "312db4555258cae62bcbb4ba3fb8725afbe8facf",
+    "name": "Shrine Maiden 64813231.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Shrine Maiden 64813231.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "a18e311436b0f37e3b37c9209e5e5e52a49f9799",
+    "name": "Silent Killer 65483195.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Silent Killer 65483195.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "0e9be463b8a3a84630f8176bac6faf783458138e",
+    "name": "Sitting Duck 67399879.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Sitting Duck 67399879.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "6ba0d8aeb4624f6645c7f3ce81b5b1b38db6a28d",
+    "name": "Slasher 67502579.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Slasher 67502579.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "de1c2a5ae533e06cf2a383d9d29e20e39df67c8e",
+    "name": "Spelunker 64813236.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Spelunker 64813236.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "4e6f9158eaff8fc55d18f2f45374b849ebf3726a",
+    "name": "Steadfast Defender 65520527.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Steadfast Defender 65520527.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "8151d3fb70e981c7377bdb37437744d3a4246f1b",
+    "name": "Street Angel 65004542.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Street Angel 65004542.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "a9856c8686f110af4ebaa54486b7544fddc08be2",
+    "name": "Street Idol 67348831.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Street Idol 67348831.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f60742ff96c3b9af2f2327adddb6858202d17975",
+    "name": "Stumbling Flirt 69712060.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Stumbling Flirt 69712060.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "eec9cbb0ff9f0ca05dc8aa351dba520b5bb44e89",
+    "name": "Talent Manager 64656874.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Talent Manager 64656874.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "44a8f4d6df5f783afbb7d4aba27ab79a81771e28",
+    "name": "The Fool 66789630.yml",
+    "type": "blob",
+    "path": "src/cards/unit/The Fool 66789630.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "2e5d9660c46a412adc0be2d9e62a2aaa70b82484",
+    "name": "The Onion 64784703.yml",
+    "type": "blob",
+    "path": "src/cards/unit/The Onion 64784703.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "400f72e616d21fe083ca437d519e67ca0742fb07",
+    "name": "The Victim 68846606.yml",
+    "type": "blob",
+    "path": "src/cards/unit/The Victim 68846606.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "7f53f646cf4e7f016f0361a8956f21c7387ee422",
+    "name": "Thirsty Demon 65334369.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Thirsty Demon 65334369.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "3c25f283d150c74dd0b031c1b3ff97605d4c6347",
+    "name": "Thirsty Demoness 68846605.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Thirsty Demoness 68846605.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "8ab90e569fe1ef80847860e0addcdac36b7baa21",
+    "name": "Time Traveler 64813235.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Time Traveler 64813235.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "f1009dca8ca1704b444ae2accf783cd6c8ec25cb",
+    "name": "Tribal Queen 68398766.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Tribal Queen 68398766.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "5c77c92c9e01fd9e30c29fee8559f44d78b324f1",
+    "name": "Twin Pup 65004543.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Twin Pup 65004543.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "5c38dbc76c791472453dac371da463aa7fa3e241",
+    "name": "Undefined Name 67560234.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Undefined Name 67560234.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "fc6ac872d9fb982403b78f37f1b5d4f1fed3757e",
+    "name": "Undefined Name 67881624.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Undefined Name 67881624.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c1c082b54aa77547e678e54b7d7dfd8d767f1155",
+    "name": "Undefined Name 68812642.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Undefined Name 68812642.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "c635ef40119a611b0359a33c115a69038b3e71bd",
+    "name": "Unreleased Card 65163169.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Unreleased Card 65163169.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "cb7e7cb775b7a401d25f762d205854ff2de0a478",
+    "name": "Usual Suspect 65520529.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Usual Suspect 65520529.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "12b9fc5118d8f85f13fc01683ebad72284e08d87",
+    "name": "Vicious Boxer 67713598.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Vicious Boxer 67713598.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "7c9df129b2102843520662bad783147b84951e04",
+    "name": "Wife 64893363.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Wife 64893363.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "dfc4b823476c976bab99a06041b1c35e1c2e8f71",
+    "name": "Witch Adept 66059490.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Witch Adept 66059490.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "4267965b8909303520cee195de97048180f1a04b",
+    "name": "Witch Adept 66059492.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Witch Adept 66059492.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "fdfd488a564eabc43c9748cf86ae5966e1792f32",
+    "name": "Yandere Necromancer 66515733.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Yandere Necromancer 66515733.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "24130720266610741366b4a6822023a29e89029b",
+    "name": "Yandere Necromancer 69170625.yml",
+    "type": "blob",
+    "path": "src/cards/unit/Yandere Necromancer 69170625.yml",
+    "mode": "100644"
+  },
+  {
+    "id": "83fc45c36880bf7c9d0e5af7f9956cf38d1ac0dc",
+    "name": "placeholder 64656873.yml",
+    "type": "blob",
+    "path": "src/cards/unit/placeholder 64656873.yml",
+    "mode": "100644"
+  }
+]

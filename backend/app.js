@@ -21,15 +21,18 @@ async function fetchTree(cardType)
                 'PRIVATE-TOKEN': token
             }
         });
-        let data = await response.json();
-        for (const file of data) 
+        const data = await response.json();
+        const allFiles = await Promise.all
+        (
+            data.map(file => fetchFile(cardType, file.name))
+
+        );
+        allFiles.forEach(card =>
         {
-            const card = await fetchFile(cardType, file.name)
             console.log(card)
             allCards.push(card);
 
-
-        };
+        })
         if (data.length < 100) 
         {
             break;
@@ -52,7 +55,11 @@ async function fetchFile(cardType, fileName)
         }
     });
     const data = await response.text();
-    const parsedData = YAML.parse(data);
+
+    const filteredData = data
+        .split('\n')
+        .filter(line => line.startsWith('title:') || line.startsWith('cost:'))
+    const parsedData = YAML.parse(filteredData.join('\n'));
     return parsedData
 }
 

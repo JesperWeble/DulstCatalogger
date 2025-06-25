@@ -1,510 +1,764 @@
 [
   {
+    "atk": 1,
     "cost": 1,
+    "health": 2,
     "title": "Adored City Girl"
   },
   {
+    "atk": 5,
     "cost": 5,
+    "health": 5,
     "title": "Anomalous Entity"
   },
   {
+    "atk": 0,
     "cost": 2,
+    "health": 7,
     "title": "Art Student"
   },
   {
+    "atk": 1,
     "cost": 3,
+    "health": 5,
     "title": "Auto Violinist"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Axe Lobber"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 3,
     "title": "Baby Wolf"
   },
   {
+    "atk": 1,
     "cost": 2,
+    "health": 4,
     "title": "Bad Apple"
   },
   {
+    "atk": 5,
     "cost": 4,
+    "health": 5,
     "title": "Battle Maid"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 3,
     "title": "Best Friend"
   },
   {
+    "atk": 2,
     "cost": 5,
+    "health": 8,
     "title": "Big Beast"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 3,
     "title": "Blade Stylist"
   },
   {
+    "atk": 8,
     "cost": 20,
+    "health": 8,
     "title": "Bloodthirster"
   },
   {
+    "atk": 3,
     "cost": 4,
+    "health": 3,
     "title": "Bouncer"
   },
   {
+    "atk": 3,
     "cost": 1,
+    "health": 1,
     "title": "Boxer"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 4,
     "title": "Caller"
   },
   {
+    "atk": 8,
     "cost": 8,
+    "health": 8,
     "title": "Celestial Titan"
   },
   {
+    "atk": 2,
     "cost": 1,
+    "health": 1,
     "title": "Chasing Dog"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 3,
     "title": "Child of Nature"
   },
   {
+    "atk": 4,
     "cost": 5,
+    "health": 4,
     "title": "Clue Finder"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 3,
     "title": "Conservationist"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Crazy Zombie"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 3,
     "title": "Cute Badass"
   },
   {
+    "atk": 3,
     "cost": 2,
+    "health": 2,
     "title": "Dangerous Person"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Dark Mage"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Delivery Girl"
   },
   {
+    "atk": 3,
     "cost": 2,
+    "health": 2,
     "title": "Demolition Expert"
   },
   {
+    "atk": 2,
     "cost": 4,
+    "health": 4,
     "title": "Demon Dog"
   },
   {
+    "atk": 6,
     "cost": 8,
+    "health": 7,
     "title": "Devil Girlfriend"
   },
   {
+    "atk": 6,
     "cost": 6,
+    "health": 7,
     "title": "Devil Prankster"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 4,
     "title": "Drake"
   },
   {
+    "atk": 4,
     "cost": 5,
+    "health": 4,
     "title": "Executive"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "FBK Prinny"
   },
   {
+    "atk": 3,
     "cost": 4,
+    "health": 4,
     "title": "Fall Girl"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Fantom"
   },
   {
+    "atk": 1,
     "cost": 2,
+    "health": 1,
     "title": "Fast Food Manager"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 3,
     "title": "Firebird"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Freebird"
   },
   {
+    "atk": 0,
     "cost": 1,
+    "health": 4,
     "title": "Galactic Baby"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 3,
     "title": "Gang Biker"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 3,
     "title": "Ganger"
   },
   {
+    "atk": 2,
     "cost": 1,
+    "health": 1,
     "title": "Gift Wrapper"
   },
   {
+    "atk": 5,
     "cost": 6,
+    "health": 6,
     "title": "Ginga Gal"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 2,
     "title": "Gremlin"
   },
   {
+    "atk": 2,
     "cost": 4,
+    "health": 5,
     "title": "Grim Reaper"
   },
   {
+    "atk": 8,
     "cost": 15,
+    "health": 8,
     "title": "Grim Reaper"
   },
   {
+    "atk": 0,
     "cost": 3,
+    "health": 5,
     "title": "Grim Reaper"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 2,
     "title": "Half-Elven Archer"
   },
   {
+    "atk": 2,
     "cost": 1,
+    "health": 1,
     "title": "Handsome Cat"
   },
   {
+    "atk": 3,
     "cost": 2,
+    "health": 2,
     "title": "Harp Player"
   },
   {
+    "atk": 1,
     "cost": 2,
+    "health": 1,
     "title": "History Student"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 4,
     "title": "Hopemaker"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 4,
     "title": "House Cat"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 3,
     "title": "Huntress"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 3,
     "title": "Idol of Worship"
   },
   {
+    "atk": 0,
     "cost": 2,
+    "health": 5,
     "title": "Idolized Performer"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 3,
     "title": "Illustrator"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Injector"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Invoker"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 2,
     "title": "Juggler"
   },
   {
+    "atk": 8,
     "cost": 15,
+    "health": 8,
     "title": "Kishin"
   },
   {
+    "atk": 7,
     "cost": 7,
+    "health": 7,
     "title": "Knight Champion"
   },
   {
+    "atk": 4,
     "cost": 5,
+    "health": 5,
     "title": "Lady of Dawn"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Lesser Thing"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 3,
     "title": "Lunar Princess"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 4,
     "title": "Lunar Witch"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 3,
     "title": "Lustrous Sleeper"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 3,
     "title": "Mage Conduit"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 3,
     "title": "Maiden"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 3,
     "title": "Maidenz"
   },
   {
+    "atk": 2,
     "cost": 3,
+    "health": 2,
     "title": "Management Trainee"
   },
   {
+    "atk": 2,
     "cost": 0,
+    "health": 2,
     "title": "Management Trainee"
   },
   {
+    "atk": 5,
     "cost": 6,
+    "health": 12,
     "title": "Martyr"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 5,
     "title": "Oni Ojou"
   },
   {
+    "atk": 0,
     "cost": 0,
+    "health": 0,
     "title": "Onion"
   },
   {
+    "atk": 5,
     "cost": 4,
+    "health": 4,
     "title": "Overzealous Girlfriend"
   },
   {
+    "atk": 6,
     "cost": 5,
+    "health": 4,
     "title": "Overzealous Girlfriend"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 3,
     "title": "Paygiver"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 2,
     "title": "Pencil Sharpener"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 1,
     "title": "Pirate"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Police"
   },
   {
+    "atk": 2,
     "cost": 4,
+    "health": 4,
     "title": "Precious Princess"
   },
   {
+    "atk": 1,
     "cost": 2,
+    "health": 4,
     "title": "Priority Target"
   },
   {
+    "atk": 4,
     "cost": 5,
+    "health": 6,
     "title": "Psychopath"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 4,
     "title": "Rain Heart"
   },
   {
+    "atk": 6,
     "cost": 6,
+    "health": 5,
     "title": "Rapper Sheep"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Reanimated Follower"
   },
   {
+    "atk": 5,
     "cost": 5,
+    "health": 5,
     "title": "Redemptor"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 4,
     "title": "Rising Star"
   },
   {
+    "atk": 4,
     "cost": 3,
+    "health": 3,
     "title": "Samurai"
   },
   {
+    "atk": 4,
     "cost": 2,
+    "health": 3,
     "title": "Scary Cat"
   },
   {
+    "atk": 3,
     "cost": 1,
+    "health": 2,
     "title": "Scary Dog"
   },
   {
+    "atk": 4,
     "cost": 5,
+    "health": 6,
     "title": "Security Buffer"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Shadow Clone"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 1,
     "title": "Shark Surfer"
   },
   {
+    "atk": 2,
     "cost": 1,
+    "health": 2,
     "title": "Sheltered Stranger"
   },
   {
+    "atk": 2,
     "cost": 1,
+    "health": 2,
     "title": "Sheltered Stranger"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 1,
     "title": "Shore Chaser"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 3,
     "title": "Shrine Maiden"
   },
   {
+    "atk": 8,
     "cost": 6,
+    "health": 2,
     "title": "Silent Killer"
   },
   {
+    "atk": 0,
     "cost": 2,
+    "health": 2,
     "title": "Sitting Duck"
   },
   {
+    "atk": 1,
     "cost": 3,
+    "health": 1,
     "title": "Slasher"
   },
   {
+    "atk": 1,
     "cost": 2,
+    "health": 1,
     "title": "Spelunker"
   },
   {
+    "atk": 2,
     "cost": 4,
+    "health": 6,
     "title": "Steadfast Defender"
   },
   {
+    "atk": 5,
     "cost": 3,
+    "health": 1,
     "title": "Street Angel"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 5,
     "title": "Street Idol"
   },
   {
+    "atk": 5,
     "cost": 4,
+    "health": 4,
     "title": "Stumbling Flirt"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Talent Manager"
   },
   {
+    "atk": 1,
     "cost": 0,
+    "health": 1,
     "title": "The Fool"
   },
   {
+    "atk": 1,
     "cost": 1,
+    "health": 2,
     "title": "The Onion"
   },
   {
+    "atk": 3,
     "cost": 4,
+    "health": 3,
     "title": "The Victim"
   },
   {
+    "atk": 5,
     "cost": 6,
+    "health": 2,
     "title": "Thirsty Demon"
   },
   {
+    "atk": 5,
     "cost": 4,
+    "health": 6,
     "title": "Thirsty Demoness"
   },
   {
+    "atk": 3,
     "cost": 2,
+    "health": 2,
     "title": "Time Traveler"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 4,
     "title": "Tribal Queen"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 1,
     "title": "Twin Pup"
   },
   {
+    "atk": 4,
     "cost": 3,
+    "health": 3,
     "title": "Undefined Name"
   },
   {
+    "atk": 6,
     "cost": 7,
+    "health": 7,
     "title": "Undefined Name"
   },
   {
+    "atk": 7,
     "cost": 7,
+    "health": 5,
     "title": "Undefined Name"
   },
   {
+    "atk": null,
     "cost": null,
+    "health": null,
     "title": "Unreleased Card"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Usual Suspect"
   },
   {
+    "atk": 5,
     "cost": 5,
+    "health": 6,
     "title": "Vicious Boxer"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 2,
     "title": "Wife"
   },
   {
+    "atk": 4,
     "cost": 4,
+    "health": 3,
     "title": "Witch Adept"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Witch Adept"
   },
   {
+    "atk": 6,
     "cost": 6,
+    "health": 5,
     "title": "Yandere Necromancer"
   },
   {
+    "atk": 2,
     "cost": 2,
+    "health": 2,
     "title": "Yandere Necromancer"
   },
   {
+    "atk": 3,
     "cost": 3,
+    "health": 2,
     "title": "placeholder"
   }
 ]

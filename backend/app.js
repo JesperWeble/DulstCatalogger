@@ -4,7 +4,7 @@ import YAML from 'yaml';
 
 const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
-
+const propsToExtract = ['title', 'cost', 'atk', 'health'];
 
 
 async function fetchTree(cardType)
@@ -58,7 +58,9 @@ async function fetchFile(cardType, fileName)
 
     const filteredData = data
         .split('\n')
-        .filter(line => line.startsWith('title:') || line.startsWith('cost:'))
+        .filter(line => 
+            propsToExtract.some(prop => line.startsWith(`${prop}:`))
+        );
     const parsedData = YAML.parse(filteredData.join('\n'));
     return parsedData
 }

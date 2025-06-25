@@ -2,43 +2,64 @@
   {
     "atk": null,
     "cost": 3,
+    "effectsDescription": "<p><strong>Invoke: </strong>Set the remaining </p><p>health of all units to 1.</p><p><em>At the end of your turn restore <cardproperty name=\"effectHealing\">1</cardproperty></em></p><p><em>health to all your units.</em></p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Equality"
   },
   {
     "atk": 0,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Summon a 1/1 <strong>Employee</strong></p><p>Whenever you summon a unit,</p><p>give it +1/+0</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Family Restaurant"
   },
   {
     "atk": null,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Restore <cardproperty name=\"effectHealing\">6</cardproperty> health to your hero.</p><p><em>Whenever a friendly unit is </em><strong><em>Overhealed</em></strong><em>, buff its health equal to the excess.</em></p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Idol Dream"
   },
   {
     "atk": 0,
     "cost": 6,
+    "effectsDescription": "<p><strong>Invoke: Conjure</strong> an <strong>Invoke</strong> unit.</p><p><em>Your </em><strong><em>Invokes</em></strong><em> trigger twice.</em></p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Overtime"
   },
   {
     "atk": 0,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: </strong>Add two 1/2 <strong>Weather Spirits</strong> </p><p>to your hand.</p><p><em>Whenever you summon a unit, deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to a random enemy.</em></p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Rainy Day"
   },
   {
     "atk": null,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Add two <strong>Horror</strong> to your hand.</p><p><em>Whenever you Play a unit, give it a random </em><strong><em>Mutation</em></strong><em>.</em></p>",
+    "expansion": "Standard Pack",
     "health": null,
+    "reqSource": null,
     "title": "Soul Food"
   },
   {
     "atk": 0,
     "cost": 3,
+    "effectsDescription": "<p><strong>Invoke:</strong> Summon two <strong>Ruffians</strong> with <strong>Rush</strong>.</p><p><em>Whenever a friendly unit attacks, give your hero +1/+0 this turn.</em></p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Synchronicity"
   }
 ]

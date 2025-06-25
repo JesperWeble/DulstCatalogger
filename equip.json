@@ -2,22 +2,34 @@
   {
     "atk": 3,
     "cost": 2,
+    "effectsDescription": "",
+    "expansion": "Start Collection",
+    "reqSource": null,
     "title": "Katana"
   },
   {
     "atk": 1,
     "cost": 2,
+    "effectsDescription": "<p><strong>Post Offense:</strong> Draw a card.</p>",
+    "expansion": "Start Collection",
+    "reqSource": null,
     "title": "Keris Dagger"
   },
   {
     "atk": 1,
     "cost": 2,
+    "effectsDescription": "<p>Whenever your hero takes damage, lose 1 durability.</p>",
+    "expansion": "Start Collection",
+    "reqSource": null,
     "title": "Knight's Shield"
   },
   {
     "atk": 4,
     "cost": 4,
+    "effectsDescription": "<p>After you attack, add a <strong>TNT </strong>to your deck.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Peko Cannon"
   }
 ]

@@ -2,229 +2,343 @@
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Discard</strong> your lowest cost card and give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Accelerate"
   },
   {
     "atk": null,
     "cost": 3,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage.</p><p>Draw a card.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Accusation"
   },
   {
     "atk": 0,
     "cost": 3,
+    "effectsDescription": "<p>Destroy the opponent's </p><p><strong>Members </strong>and <strong>Dreams</strong>.</p><p>Draw a card.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Asserting Dominance"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to a unit.</p><p>If that destroys it, <strong>Echo</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Bang"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Add two 1/1 <strong>Luknights</strong> to your hand.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Call To Arms"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Give your units +1/+0.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Candid Motivation"
   },
   {
     "atk": 0,
     "cost": 2,
+    "effectsDescription": "<p>Draw a card.</p><p>Give units in your hand +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Clear Skies"
   },
   {
     "atk": 0,
     "cost": 2,
+    "effectsDescription": "<p><strong>Discover</strong> a unit from your afterlife and summon it with 1 health remaining.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Encore"
   },
   {
     "atk": 0,
     "cost": 2,
+    "effectsDescription": "<p>Add 3 <strong>TNT </strong>to your deck.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Explosive Delivery"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Discard</strong> your lowest cost card and deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to ALL characters.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Explosive Nut"
   },
   {
     "atk": 0,
     "cost": 3,
+    "effectsDescription": "<p>Draw 2 cards.</p><p>Restore <cardproperty name=\"effectHealing\">4</cardproperty> health to your hero.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Fishing"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to the enemy hero.</p><p><strong>Synergy: </strong>Draw another copy of this.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Flash Carve"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage.</p><p><strong>Stun</strong> the target.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Freeze Blast"
   },
   {
     "atk": 0,
     "cost": 5,
+    "effectsDescription": "<p>Give your units +<cardproperty name=\"buff_atk\">3</cardproperty>/+<cardproperty name=\"buff_health\">0 this turn.</cardproperty></p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Grandma's Passion"
   },
   {
     "atk": 0,
     "cost": 4,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage and add a</p><p><strong>TNT </strong>to the top of your deck.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Grenade"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Split <cardproperty name=\"effectHits\">5</cardproperty> damage randomly among</p><p>ALL characters.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Juggle"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to ALL units.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Magic Burst"
   },
   {
     "atk": null,
     "cost": 1,
+    "effectsDescription": "<p>Give your hero +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p><p>Add a <strong>Brawn </strong>to your hand.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Mega Punch"
   },
   {
     "atk": 1,
     "cost": 3,
+    "effectsDescription": "<p>Destroy a random enemy unit</p><p><strong>Discarded: </strong>Trigger this.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Murderous Intent"
   },
   {
     "atk": null,
     "cost": 7,
+    "effectsDescription": "<p>Destroy all cards in play and add a <strong>TNT</strong> to your deck for each.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Nuke"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p>Add a copy of a random card in the enemy hand to yours.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Painting"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p><strong>Discover</strong> a card from the top five of your deck and draw it.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Pathfinding"
   },
   {
     "atk": null,
     "cost": 7,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to all enemy units</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Quasar Wave"
   },
   {
     "atk": 0,
     "cost": 4,
+    "effectsDescription": "<p>Destroy a unit.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Reap"
   },
   {
     "atk": null,
     "cost": 1,
+    "effectsDescription": "<p>Refresh your hero power.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Refreshment"
   },
   {
     "atk": 1,
     "cost": 2,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to a random enemy unit.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Scare"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Set the remaining health of a unit to 1.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Serenade"
   },
   {
     "atk": 0,
     "cost": 5,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to all enemies and restore <cardproperty name=\"effectHealing\">2 health to all friendly characters.</cardproperty></p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Shooting Star"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Destroy a friendly unit.</p><p>Give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Soul Tap"
   },
   {
     "atk": 0,
     "cost": 2,
+    "effectsDescription": "<p>Gain +<cardproperty name=\"gain_mana\">1</cardproperty> max <strong>Hope</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Spark of Joy"
   },
   {
     "atk": 0,
     "cost": 4,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">6</cardproperty> damage.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Spell Bolt"
   },
   {
     "atk": 0,
     "cost": 4,
+    "effectsDescription": "<p>Give a unit +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">4</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Spotlight"
   },
   {
     "atk": 1,
     "cost": 2,
+    "effectsDescription": "<p>Give a unit two random <strong>Mutations</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Stimulant"
   },
   {
     "atk": 0,
     "cost": 1,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage.</p><p>Add a 1/2 <strong>Weather Spirit </strong>to your hand.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Storm Bolt"
   },
   {
     "atk": 0,
     "cost": 4,
+    "effectsDescription": "<p>Give your hero +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p><p><em>Costs 1 less for each unit that has attacked this turn.</em></p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Tension Release"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to two enemy units.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Trident Barrage"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>Choose a character and summon two 1/1 <strong>Ruffians</strong> with <strong>Rush </strong>to attack it.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Twin Rushdown"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p><strong>Choice:</strong></p><p>Deal 3 damage;</p><p>Deal 1 damage and draw a card;</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Wonder Blast"
   }
 ]

@@ -2,43 +2,64 @@
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>When a friendly unit is attacked, </p><p>give it +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">2</cardproperty>.</p>",
+    "expansion": "Standard Pack",
     "health": null,
+    "reqSource": null,
     "title": "Blessing of God"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>When a friendly unit is destroyed, summon a 2/2 <strong>Skeleton</strong>.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Curse of Undeath"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>When an enemy attacks your hero, deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to all enemies.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Desolation Bomb"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>When the enemy plays a card,</p><p>add two copies of it to your hand.</p>",
+    "expansion": "Standard Pack",
     "health": null,
+    "reqSource": null,
     "title": "Dreamcatcher"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>When the enemy plays an event, return it to hand and increase its cost by 2.</p>",
+    "expansion": "Standard Pack",
     "health": null,
+    "reqSource": null,
     "title": "Event Reset"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>When your hero is attacked, summon a 2/1 <strong>Older Brother</strong> as the new target.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "First Resort"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p>When the opponent plays a unit,</p><p>deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to it.</p>",
+    "expansion": "Standard Pack",
     "health": null,
+    "reqSource": null,
     "title": "Landmine"
   }
 ]

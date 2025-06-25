@@ -2,421 +2,631 @@
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Provoked: </strong>Summon a 1/1 <strong>Luknight </strong>with <strong>Vanguard</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Adored City Girl"
   },
   {
     "atk": 5,
     "cost": 5,
+    "effectsDescription": "<p><strong>Invoke & Inspire: </strong>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage to both heroes.</p>",
+    "expansion": "Start Collection",
     "health": 5,
+    "reqSource": null,
     "title": "Anomalous Entity"
   },
   {
     "atk": 1,
     "cost": 3,
+    "effectsDescription": "<p><strong>At turn start:</strong> Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to a</p><p>random enemy.</p>",
+    "expansion": "Start Collection",
     "health": 5,
+    "reqSource": null,
     "title": "Auto Violinist"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Axe Lobber"
   },
   {
     "atk": 5,
     "cost": 4,
+    "effectsDescription": "<p>Has attack equal to this unit's health.</p>",
+    "expansion": "Start Collection",
     "health": 5,
+    "reqSource": null,
     "title": "Battle Maid"
   },
   {
     "atk": 4,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Silence a unit.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Best Friend"
   },
   {
     "atk": 2,
     "cost": 5,
+    "effectsDescription": "<p><strong>Provoked:</strong> Gain +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> and <strong>Vanguard</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 8,
+    "reqSource": null,
     "title": "Big Beast"
   },
   {
     "atk": 2,
     "cost": 2,
+    "effectsDescription": "<p><strong>Offense: </strong>Give your hero +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Blade Stylist"
   },
   {
     "atk": 8,
     "cost": 20,
+    "effectsDescription": "<p><em>Costs 1 less for every point of damage your hero has taken this match.</em></p>",
+    "expansion": "Start Collection",
     "health": 8,
+    "reqSource": null,
     "title": "Bloodthirster"
   },
   {
     "atk": 3,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Return a unit to the hand with attack =< this card's attack.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Bouncer"
   },
   {
     "atk": 2,
     "cost": 1,
+    "effectsDescription": "",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Chasing Dog"
   },
   {
     "atk": 4,
     "cost": 5,
+    "effectsDescription": "<p><strong>Invoke: </strong>Draw your lowest cost card. <strong>Mulligan</strong> one card.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Clue Finder"
   },
   {
     "atk": 2,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: Mulligan</strong> one card.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Conservationist"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Legacy: </strong>Draw a card.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Crazy Zombie"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Inspire: </strong>Draw a card</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Cute Badass"
   },
   {
     "atk": 2,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to another unit if that destroys it, gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Dark Mage"
   },
   {
     "atk": 2,
     "cost": 2,
+    "effectsDescription": "<p><strong>Synergy: </strong>Draw a card.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Delivery Girl"
   },
   {
     "atk": 3,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: </strong>Add a <strong>TNT</strong> to your deck.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Demolition Expert"
   },
   {
     "atk": 6,
     "cost": 8,
+    "effectsDescription": "<p><strong>Invoke: </strong>Take control of an enemy unit with <cardproperty name=\"unstrength\">2</cardproperty> or less health.</p>",
+    "expansion": "Start Collection",
     "health": 7,
+    "reqSource": null,
     "title": "Devil Girlfriend"
   },
   {
     "atk": 2,
     "cost": 3,
+    "effectsDescription": "<p><strong>Provoked: </strong>Draw a card.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Drake"
   },
   {
     "atk": 3,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Set the attack and remaining health of a unit to 3.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Fall Girl"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Legacy: </strong>Add a <strong>Concert </strong>to your hand.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Fantom"
   },
   {
     "atk": 1,
     "cost": 2,
+    "effectsDescription": "<p><strong>Legacy: </strong>Summon a 1/1 <strong>Employee</strong> </p><p>with <strong>Haste.</strong></p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Fast Food Manager"
   },
   {
     "atk": 2,
     "cost": 1,
+    "effectsDescription": "<p><strong>Invoke: </strong>Add a random <strong>Event</strong> to the hand of both players.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Gift Wrapper"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Offense: </strong>Gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Gremlin"
   },
   {
     "atk": 8,
     "cost": 15,
+    "effectsDescription": "<p>Costs 1 less for each friendly unit that was destroyed this match.</p>",
+    "expansion": "Start Collection",
     "health": 8,
+    "reqSource": null,
     "title": "Grim Reaper"
   },
   {
     "atk": 2,
     "cost": 3,
+    "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Half-Elven Archer"
   },
   {
     "atk": 3,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: </strong>Restore <cardproperty name=\"effectHealing\">2</cardproperty> health.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Harp Player"
   },
   {
     "atk": 2,
     "cost": 3,
+    "effectsDescription": "<p><strong>Legacy: </strong>Restore <cardproperty name=\"effectHealing\">4</cardproperty> health to your hero.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "House Cat"
   },
   {
     "atk": 2,
     "cost": 3,
+    "effectsDescription": "<p><strong>Invoke: </strong>Add <strong>Arrow Strike</strong> to your hand.</p><p><strong>Synergy: </strong>Reduce it's cost by 1.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Huntress"
   },
   {
     "atk": 4,
     "cost": 4,
+    "effectsDescription": "<p><strong>Legacy: </strong>Summon a random 2 cost unit.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Idol of Worship"
   },
   {
     "atk": 2,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: Mutate </strong>any friendly unit.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Injector"
   },
   {
     "atk": 2,
     "cost": 3,
+    "effectsDescription": "<p><strong>Invoke: </strong>Both players draw two cards.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Juggler"
   },
   {
     "atk": 8,
     "cost": 15,
+    "effectsDescription": "<p><em>Costs 1 less for every card you've played this game.</em></p>",
+    "expansion": "Start Collection",
     "health": 8,
+    "reqSource": null,
     "title": "Kishin"
   },
   {
     "atk": 7,
     "cost": 7,
+    "effectsDescription": "<p>Your other units have +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 7,
+    "reqSource": null,
     "title": "Knight Champion"
   },
   {
     "atk": 4,
     "cost": 5,
+    "effectsDescription": "<p><strong>Invoke:</strong> Restore <cardproperty name=\"effectHealing\">5</cardproperty> health and </p><p>Draw a card.</p>",
+    "expansion": "Start Collection",
     "health": 5,
+    "reqSource": null,
     "title": "Lady of Dawn"
   },
   {
     "atk": 2,
     "cost": 3,
+    "effectsDescription": "<p>Your other units have +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Lunar Princess"
   },
   {
     "atk": 3,
     "cost": 3,
+    "effectsDescription": "<p>Has <strong>Sturdy</strong> during the opponent's turn.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Lustrous Sleeper"
   },
   {
     "atk": 3,
     "cost": 3,
+    "effectsDescription": "<p>Whenever you play an <strong>Event</strong>, gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Mage Conduit"
   },
   {
     "atk": 5,
     "cost": 6,
+    "effectsDescription": "<p><strong>Invoke: </strong>This takes <cardproperty name=\"effectDamage\">6</cardproperty> damage.</p>",
+    "expansion": "Start Collection",
     "health": 12,
+    "reqSource": null,
     "title": "Martyr"
   },
   {
     "atk": 6,
     "cost": 5,
+    "effectsDescription": "<p><strong>Overkill: </strong>Add a copy of the target to your hand.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Overzealous Girlfriend"
   },
   {
     "atk": 3,
     "cost": 3,
+    "effectsDescription": "<p>Whenever a friendly unit is damaged, give it +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Paygiver"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Invoke: </strong>Give another friendly character +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Pencil Sharpener"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Invoke: </strong>Stun an enemy.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Police"
   },
   {
     "atk": 2,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Give adjacent units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty> and <strong>Vanguard</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Precious Princess"
   },
   {
     "atk": 1,
     "cost": 2,
+    "effectsDescription": "<p>At the end of your turn add a <strong>TNT</strong> to your deck.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Priority Target"
   },
   {
     "atk": 4,
     "cost": 5,
+    "effectsDescription": "<p>At the end of your turn deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to the enemy hero.</p>",
+    "expansion": "Start Collection",
     "health": 6,
+    "reqSource": null,
     "title": "Psychopath"
   },
   {
     "atk": 2,
     "cost": 2,
+    "effectsDescription": "<p><strong>Legacy: </strong>Summon a 2/2 <strong>Skeleton</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Reanimated Follower"
   },
   {
     "atk": 4,
     "cost": 4,
-    "health": 4,
+    "effectsDescription": "<p>Whenever a friendly character is healed, deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to a random enemy.</p>",
+    "expansion": "Start Collection",
+    "health": 3,
+    "reqSource": null,
     "title": "Rising Star"
   },
   {
     "atk": 4,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: </strong>Discard a random card.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Scary Cat"
   },
   {
     "atk": 3,
     "cost": 1,
+    "effectsDescription": "",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Scary Dog"
   },
   {
     "atk": 4,
     "cost": 5,
+    "effectsDescription": "<p><strong>Legacy: </strong>Summon a 0/1 <strong>Pokobe.</strong></p>",
+    "expansion": "Start Collection",
     "health": 6,
+    "reqSource": null,
     "title": "Security Buffer"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Invoke: </strong>Summon an exact copy of this.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Shadow Clone"
   },
   {
     "atk": 2,
     "cost": 1,
+    "effectsDescription": "<p><strong>Invoke: </strong>Deal 1 damage to any </p><p>friendly unit.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Sheltered Stranger"
   },
   {
     "atk": 1,
     "cost": 1,
+    "effectsDescription": "<p><strong>Synergy: </strong>Gain <strong>Rush</strong></p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Shore Chaser"
   },
   {
     "atk": 3,
     "cost": 3,
+    "effectsDescription": "<p><strong>Invoke: </strong>Give any friendly unit <strong>Shield</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Shrine Maiden"
   },
   {
     "atk": 0,
     "cost": 2,
+    "effectsDescription": "<p><strong>Legacy: </strong>Summon a 4/4 <strong>Duck</strong>.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Sitting Duck"
   },
   {
     "atk": 1,
     "cost": 3,
+    "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage[0]\">1</cardproperty>-<cardproperty name=\"effectDamage[1]\">3</cardproperty> damage and add two 1/1 <strong>Horrors</strong> to your hand.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Slasher"
   },
   {
     "atk": 1,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: </strong>Draw a card.</p>",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "Spelunker"
   },
   {
     "atk": 2,
     "cost": 4,
+    "effectsDescription": "<p><strong>Provoked: </strong>Gain +<cardproperty name=\"buff_atk\">3</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 6,
+    "reqSource": null,
     "title": "Steadfast Defender"
   },
   {
     "atk": 4,
     "cost": 4,
+    "effectsDescription": "<p><strong>Inspire: </strong>Give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty></p>",
+    "expansion": "Start Collection",
     "health": 5,
+    "reqSource": null,
     "title": "Street Idol"
   },
   {
     "atk": 5,
     "cost": 4,
+    "effectsDescription": "<p><strong>Legacy: </strong>Destroy enemy members and dreams.</p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Stumbling Flirt"
   },
   {
     "atk": 1,
     "cost": 0,
+    "effectsDescription": "",
+    "expansion": "Start Collection",
     "health": 1,
+    "reqSource": null,
     "title": "The Fool"
   },
   {
     "atk": 3,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: </strong>Add two <strong>Horrors</strong> to your hand.</p><p><strong>Discarded: </strong>Summon this</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "The Victim"
   },
   {
     "atk": 5,
     "cost": 4,
+    "effectsDescription": "",
+    "expansion": "Start Collection",
     "health": 6,
+    "reqSource": null,
     "title": "Thirsty Demoness"
   },
   {
     "atk": 3,
     "cost": 2,
+    "effectsDescription": "<p><strong>Invoke: </strong>Return another friendly unit to the hand.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Time Traveler"
   },
   {
     "atk": 4,
     "cost": 4,
+    "effectsDescription": "<p>After your hero attacks, gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty></p>",
+    "expansion": "Start Collection",
     "health": 4,
+    "reqSource": null,
     "title": "Tribal Queen"
   },
   {
     "atk": 5,
     "cost": 5,
+    "effectsDescription": "<p><strong>Offense: </strong>Deal 2 damage to a random enemy.</p>",
+    "expansion": "Start Collection",
     "health": 6,
+    "reqSource": null,
     "title": "Vicious Boxer"
   },
   {
     "atk": 4,
     "cost": 4,
+    "effectsDescription": "<p><strong>Invoke: Conjure</strong> two copies of an <strong>Event </strong>in your afterlife.</p>",
+    "expansion": "Start Collection",
     "health": 3,
+    "reqSource": null,
     "title": "Witch Adept"
   },
   {
     "atk": 6,
     "cost": 6,
+    "effectsDescription": "<p><strong>Invoke: Conjure</strong> two copies of a unit<strong> </strong>in your afterlife.</p>",
+    "expansion": "Start Collection",
     "health": 5,
+    "reqSource": null,
     "title": "Yandere Necromancer"
   }
 ]

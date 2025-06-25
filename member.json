@@ -2,29 +2,44 @@
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p><strong>Activate: </strong>Give your hero +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Battle Stance"
   },
   {
     "atk": 0,
     "cost": 3,
+    "effectsDescription": "<p><strong>Activate: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage.</p>",
+    "expansion": "Start Collection",
     "health": 0,
+    "reqSource": null,
     "title": "Execratio"
   },
   {
     "atk": 2,
     "cost": 2,
+    "effectsDescription": "<p><strong>Activate: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to a friendly unit and give it +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "expansion": "Start Collection",
     "health": 2,
+    "reqSource": null,
     "title": "Hard Work"
   },
   {
     "atk": null,
     "cost": 2,
+    "effectsDescription": "<p><strong>Activate: Mulligan</strong> one card.</p>",
+    "expansion": "Start Collection",
     "health": null,
+    "reqSource": null,
     "title": "Process of Elimination"
   },
   {
     "cost": 2,
+    "effectsDescription": "<p><strong>Activate: </strong>Restore <cardproperty name=\"effectHealing\">2</cardproperty> health.</p>",
+    "expansion": "Start Collection",
+    "reqSource": null,
     "title": "Slice of Heaven"
   }
 ]

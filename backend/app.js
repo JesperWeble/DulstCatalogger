@@ -5,88 +5,90 @@ import YAML from 'yaml';
 const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
 const cardTypesToExtract = ['unit', 'event', 'twist', 'dream', 'equip', 'member'];
-const propsToExtract = ['title', 'cost', 'atk', 'health'];
-const pageSize = 10; // Number of items per page
+const propsToExtract = ['title', 'cost', 'atk', 'health', 'effectsDescription', 'expansion', 'reqSource'];
+const pageSize = 100; // Number of items per page
 
 
-async function fetchTree(cardType)
-{
-    const treePath = encodeURIComponent(`src/cards/${cardType}`);
-    const treeUrl = `${repositoryPath}/tree?path=${treePath}&ref=${ref}`
-    let allCards = []; // Array to hold all cards fetched from the API.
-    for (let page = 1; ; page++)
-    {
-        const response = await fetch(`${treeUrl}&per_page=${pageSize}&page=${page}`, 
-        {
-            headers: 
-            {
-                'PRIVATE-TOKEN': token
-            }
-        });
-        const data = await response.json();
-        const allFiles = await Promise.all
-        (
-            data.map(file => fetchFile(cardType, file.name))
-
-        );
-        const filteredCards = allFiles.filter(card => card !== null);
-        allCards.push(...filteredCards);
-        if (data.length < pageSize) 
-        {
-            break;
-        }
-    }
-    console.log(`Fetched ${allCards.length} cards of type ${cardType}`);
-    await fs.writeFile(`${cardType}.json`, JSON.stringify(allCards, null, 2));
-    console.log(`Saved ${cardType}.json`);
-}
-
-// async function fetchTree(cardType) // Fetches Multiple Pages at the same time test.
+// async function fetchTree(cardType)
 // {
-// const treePath = encodeURIComponent(`src/cards/${cardType}`);
-// const treeUrl = `${repositoryPath}/tree?path=${treePath}&ref=${ref}`
-// let allCards = []; // Array to hold all cards fetched from the API.
-// let page = 1;
-// const batchSize = 5; // Number of pages to fetch concurrently
-// while (true) // creates an array like [1,2,3,4,5... up to batchSize]
-// {
-// const pageNumbers = [];
-// for (let i = 0; i < batchSize; i++) 
-// {
-//     pageNumbers.push(page + i);
-// }
-
-// // Fetch pages concurrently
-// const pagesData = await Promise.all
-// (
-//     pageNumbers.map(currentPage =>
-//         fetch(`${treeUrl}&per_page=${pageSize}&page=${currentPage}`,
+//     const treePath = encodeURIComponent(`src/cards/${cardType}`);
+//     const treeUrl = `${repositoryPath}/tree?path=${treePath}&ref=${ref}`
+//     let allCards = []; // Array to hold all cards fetched from the API.
+//     for (let page = 1; ; page++)
+//     {
+//         const response = await fetch(`${treeUrl}&per_page=${pageSize}&page=${page}`, 
 //         {
 //             headers: 
 //             {
 //                 'PRIVATE-TOKEN': token
 //             }
-//         })
-//         .then(response => response.json() ) // Convert each response to JSON
-//     )
-// );
+//         });
+//         const data = await response.json();
+//         const allFiles = await Promise.all
+//         (
+//             data.map(file => fetchFile(cardType, file.name))
 
-// const flattenedBatch = pagesData.flat();
-// const allFiles = await Promise.all
-// (
-//     flattenedBatch.map(file => fetchFile(cardType, file.name))
-// );
-// const filteredCards = allFiles.filter(card => card !== null);
-// allCards.push(...filteredCards);
-// if (flattenedBatch.length < pageSize) 
-// {
-//     break; // Exit the loop if the last batch has fewer items than pageSize
-// }
-// page += batchSize; // Move to the next batch of pages
+//         );
+//         const filteredCards = allFiles.filter(card => card !== null);
+//         allCards.push(...filteredCards);
+//         if (data.length < pageSize) 
+//         {
+//             break;
+//         }
+//     }
+//     console.log(`Fetched ${allCards.length} cards of type ${cardType}`);
+//     await fs.writeFile(`${cardType}.json`, JSON.stringify(allCards, null, 2));
+//     console.log(`Saved ${cardType}.json`);
 // }
 
+async function fetchTree(cardType) // Fetches Multiple Pages at the same time test.
+{
+    const treePath = encodeURIComponent(`src/cards/${cardType}`);
+    const treeUrl = `${repositoryPath}/tree?path=${treePath}&ref=${ref}`
+    let allCards = []; // Array to hold all cards fetched from the API.
+    let page = 1;
+    const batchSize = 5; // Number of pages to fetch concurrently
+    while (true) // creates an array like [1,2,3,4,5... up to batchSize]
+    {
+        const pageNumbers = [];
+        for (let i = 0; i < batchSize; i++) 
+        {
+            pageNumbers.push(page + i);
+        }
 
-// }
+        // Fetch pages concurrently
+        const pagesData = await Promise.all
+        (
+            pageNumbers.map(currentPage =>
+                fetch(`${treeUrl}&per_page=${pageSize}&page=${currentPage}`,
+                {
+                    headers: 
+                    {
+                        'PRIVATE-TOKEN': token
+                    }
+                })
+                .then(response => response.json() ) // Convert each response to JSON
+            )
+        );
+
+        const flattenedBatch = pagesData.flat();
+        const allFiles = await Promise.all
+        (
+            flattenedBatch.map(file => fetchFile(cardType, file.name))
+        );
+        const filteredCards = allFiles.filter(card => card !== null);
+        allCards.push(...filteredCards);
+        if (flattenedBatch.length < pageSize) 
+        {
+            break; // Exit the loop if the last batch has fewer items than pageSize
+        }
+        page += batchSize; // Move to the next batch of pages
+        
+    };
+    console.log(`Fetched ${allCards.length} cards of type ${cardType}`);
+    await fs.writeFile(`${cardType}.json`, JSON.stringify(allCards, null, 2));
+    console.log(`Saved ${cardType}.json`);
+}
 
 async function fetchFile(cardType, fileName)
 {

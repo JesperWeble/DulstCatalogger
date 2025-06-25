@@ -4,8 +4,9 @@ import YAML from 'yaml';
 
 const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
+const cardTypesToExtract = ['unit', 'event', 'twist', 'dream', 'equip', 'member'];
 const propsToExtract = ['title', 'cost', 'atk', 'health'];
-const pageSize = 100; // Number of items per page
+const pageSize = 10; // Number of items per page
 
 
 async function fetchTree(cardType)
@@ -40,6 +41,53 @@ async function fetchTree(cardType)
     console.log(`Saved ${cardType}.json`);
 }
 
+// async function fetchTree(cardType) // Fetches Multiple Pages at the same time test.
+// {
+// const treePath = encodeURIComponent(`src/cards/${cardType}`);
+// const treeUrl = `${repositoryPath}/tree?path=${treePath}&ref=${ref}`
+// let allCards = []; // Array to hold all cards fetched from the API.
+// let page = 1;
+// const batchSize = 5; // Number of pages to fetch concurrently
+// while (true) // creates an array like [1,2,3,4,5... up to batchSize]
+// {
+// const pageNumbers = [];
+// for (let i = 0; i < batchSize; i++) 
+// {
+//     pageNumbers.push(page + i);
+// }
+
+// // Fetch pages concurrently
+// const pagesData = await Promise.all
+// (
+//     pageNumbers.map(currentPage =>
+//         fetch(`${treeUrl}&per_page=${pageSize}&page=${currentPage}`,
+//         {
+//             headers: 
+//             {
+//                 'PRIVATE-TOKEN': token
+//             }
+//         })
+//         .then(response => response.json() ) // Convert each response to JSON
+//     )
+// );
+
+// const flattenedBatch = pagesData.flat();
+// const allFiles = await Promise.all
+// (
+//     flattenedBatch.map(file => fetchFile(cardType, file.name))
+// );
+// const filteredCards = allFiles.filter(card => card !== null);
+// allCards.push(...filteredCards);
+// if (flattenedBatch.length < pageSize) 
+// {
+//     break; // Exit the loop if the last batch has fewer items than pageSize
+// }
+// page += batchSize; // Move to the next batch of pages
+// }
+
+
+// }
+
 async function fetchFile(cardType, fileName)
 {
     const filePath = encodeURIComponent(`src/cards/${cardType}/${fileName}`);
@@ -68,11 +116,12 @@ async function fetchFile(cardType, fileName)
         return parsedData
     }
 }
-fetchTree('unit');
-fetchTree('event');
-fetchTree('twist');
-fetchTree('dream');
-fetchTree('equip');
-fetchTree('member');
-
-
+async function fetchAllCards(cardTypes)
+{
+    
+    const promises = cardTypes.map(cardType => fetchTree(cardType));
+    await Promise.all(promises);
+}
+console.time('Total Time Elapsed');
+await fetchAllCards(cardTypesToExtract);
+console.timeEnd('Total Time Elapsed');

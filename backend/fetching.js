@@ -51,7 +51,7 @@ export async function fetchTree(cardType, propsToExtract)
         
     };
     console.log(`Fetched ${allCards.length} cards of type ${cardType}`);
-    await fs.writeFile(`${cardType}.json`, JSON.stringify(allCards, null, 2));
+    await fs.writeFile(`db/${cardType}.json`, JSON.stringify(allCards, null, 2));
     console.log(`Saved ${cardType}.json`);
 }
 

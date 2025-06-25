@@ -1,6 +1,7 @@
 import fs from 'fs/promises';
 import {token, projectId} from './config.js';
 import YAML from 'yaml';
+import * as exporting from './exporting_toExcel.js';
 
 const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
@@ -53,6 +54,9 @@ export async function fetchTree(cardType, propsToExtract)
     console.log(`Fetched ${allCards.length} cards of type ${cardType}`);
     await fs.writeFile(`db/${cardType}.json`, JSON.stringify(allCards, null, 2));
     console.log(`Saved ${cardType}.json`);
+
+    // Export all cards to Excel
+    await exporting.writeToExcel(allCards);
 }
 
 export async function fetchFile(cardType, propsToExtract, fileName)
@@ -86,7 +90,7 @@ export async function fetchFile(cardType, propsToExtract, fileName)
 
 export async function fetchAllCards(cardTypes, propsToExtract)
 {
-    
-    const promises = cardTypes.map(cardType => fetchTree(cardType, propsToExtract));
-    await Promise.all(promises);
+    fetchTree('unit', propsToExtract);
+    // const promises = cardTypes.map(cardType => fetchTree(cardType, propsToExtract));
+    // await Promise.all(promises);
 }

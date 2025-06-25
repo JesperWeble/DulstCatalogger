@@ -4,6 +4,7 @@ import fs from 'fs/promises';
 export async function writeToExcel(cards)
 {
 
+    const reqSources = ['Idol', 'Banchou', 'Senshi', 'Gunshi', 'Madoushi', 'Okashii'];
     const excelArk = new ExcelJS.Workbook();
     await excelArk.xlsx.readFile('TestSheet.xlsx');
     
@@ -12,6 +13,23 @@ export async function writeToExcel(cards)
     let arkRow = 3; // ++
 
     cards.sort((a, b) => a.cost - b.cost); // Sort cards by cost
+
+    reqSources.forEach(reqSource =>
+    {
+        if (reqSource)
+        {
+            reqSourceCard = cards.filter(card => card.reqSource == reqSource);
+            // TODO **
+
+        }
+        else
+        {
+            // Put neutral cards here
+        }
+
+    }
+    )
+
 
     
     cards.forEach(card =>

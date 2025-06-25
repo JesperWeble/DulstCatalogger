@@ -1,0 +1,44 @@
+[
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Blessing of God"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Curse of Undeath"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Desolation Bomb"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Dreamcatcher"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Event Reset"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "First Resort"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Landmine"
+  }
+]

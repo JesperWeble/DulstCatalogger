@@ -1,0 +1,30 @@
+[
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Battle Stance"
+  },
+  {
+    "atk": 0,
+    "cost": 3,
+    "health": 0,
+    "title": "Execratio"
+  },
+  {
+    "atk": 2,
+    "cost": 2,
+    "health": 2,
+    "title": "Hard Work"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Process of Elimination"
+  },
+  {
+    "cost": 2,
+    "title": "Slice of Heaven"
+  }
+]

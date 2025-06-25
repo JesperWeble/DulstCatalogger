@@ -1,0 +1,230 @@
+[
+  {
+    "atk": 1,
+    "cost": 1,
+    "health": 1,
+    "title": "Accelerate"
+  },
+  {
+    "atk": null,
+    "cost": 3,
+    "health": null,
+    "title": "Accusation"
+  },
+  {
+    "atk": 0,
+    "cost": 3,
+    "health": 0,
+    "title": "Asserting Dominance"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Bang"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Call To Arms"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Candid Motivation"
+  },
+  {
+    "atk": 0,
+    "cost": 2,
+    "health": 0,
+    "title": "Clear Skies"
+  },
+  {
+    "atk": 0,
+    "cost": 2,
+    "health": 0,
+    "title": "Encore"
+  },
+  {
+    "atk": 0,
+    "cost": 2,
+    "health": 0,
+    "title": "Explosive Delivery"
+  },
+  {
+    "atk": 1,
+    "cost": 1,
+    "health": 1,
+    "title": "Explosive Nut"
+  },
+  {
+    "atk": 0,
+    "cost": 3,
+    "health": 0,
+    "title": "Fishing"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Flash Carve"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Freeze Blast"
+  },
+  {
+    "atk": 0,
+    "cost": 5,
+    "health": 0,
+    "title": "Grandma's Passion"
+  },
+  {
+    "atk": 0,
+    "cost": 4,
+    "health": 0,
+    "title": "Grenade"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Juggle"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Magic Burst"
+  },
+  {
+    "atk": null,
+    "cost": 1,
+    "health": null,
+    "title": "Mega Punch"
+  },
+  {
+    "atk": 1,
+    "cost": 3,
+    "health": 1,
+    "title": "Murderous Intent"
+  },
+  {
+    "atk": null,
+    "cost": 7,
+    "health": null,
+    "title": "Nuke"
+  },
+  {
+    "atk": 1,
+    "cost": 1,
+    "health": 1,
+    "title": "Painting"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Pathfinding"
+  },
+  {
+    "atk": null,
+    "cost": 7,
+    "health": null,
+    "title": "Quasar Wave"
+  },
+  {
+    "atk": 0,
+    "cost": 4,
+    "health": 0,
+    "title": "Reap"
+  },
+  {
+    "atk": null,
+    "cost": 1,
+    "health": null,
+    "title": "Refreshment"
+  },
+  {
+    "atk": 1,
+    "cost": 2,
+    "health": 1,
+    "title": "Scare"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Serenade"
+  },
+  {
+    "atk": 0,
+    "cost": 5,
+    "health": 0,
+    "title": "Shooting Star"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Soul Tap"
+  },
+  {
+    "atk": 0,
+    "cost": 2,
+    "health": 0,
+    "title": "Spark of Joy"
+  },
+  {
+    "atk": 0,
+    "cost": 4,
+    "health": 0,
+    "title": "Spell Bolt"
+  },
+  {
+    "atk": 0,
+    "cost": 4,
+    "health": 0,
+    "title": "Spotlight"
+  },
+  {
+    "atk": 1,
+    "cost": 2,
+    "health": 1,
+    "title": "Stimulant"
+  },
+  {
+    "atk": 0,
+    "cost": 1,
+    "health": 0,
+    "title": "Storm Bolt"
+  },
+  {
+    "atk": 0,
+    "cost": 4,
+    "health": 0,
+    "title": "Tension Release"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Trident Barrage"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Twin Rushdown"
+  },
+  {
+    "atk": null,
+    "cost": 2,
+    "health": null,
+    "title": "Wonder Blast"
+  }
+]

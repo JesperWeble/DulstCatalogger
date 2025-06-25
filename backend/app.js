@@ -5,6 +5,7 @@ import YAML from 'yaml';
 const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
 const propsToExtract = ['title', 'cost', 'atk', 'health'];
+const pageSize = 100; // Number of items per page
 
 
 async function fetchTree(cardType)
@@ -14,7 +15,7 @@ async function fetchTree(cardType)
     let allCards = []; // Array to hold all cards fetched from the API.
     for (let page = 1; ; page++)
     {
-        const response = await fetch(`${treeUrl}&per_page=100&page=${page}`, 
+        const response = await fetch(`${treeUrl}&per_page=${pageSize}&page=${page}`, 
         {
             headers: 
             {
@@ -27,13 +28,9 @@ async function fetchTree(cardType)
             data.map(file => fetchFile(cardType, file.name))
 
         );
-        allFiles.forEach(card =>
-        {
-            console.log(card)
-            allCards.push(card);
-
-        })
-        if (data.length < 100) 
+        const filteredCards = allFiles.filter(card => card !== null);
+        allCards.push(...filteredCards);
+        if (data.length < pageSize) 
         {
             break;
         }
@@ -55,16 +52,27 @@ async function fetchFile(cardType, fileName)
         }
     });
     const data = await response.text();
-
-    const filteredData = data
-        .split('\n')
-        .filter(line => 
-            propsToExtract.some(prop => line.startsWith(`${prop}:`))
-        );
-    const parsedData = YAML.parse(filteredData.join('\n'));
-    return parsedData
+    if (data.includes('version: alpha')) 
+    {
+        console.log(`Skipping ${fileName} due to alpha version`);
+        return null; // Skip files with 'version: alpha'
+    }
+    else
+    {
+        const filteredData = data
+            .split('\n')
+            .filter(line => 
+                propsToExtract.some(prop => line.startsWith(`${prop}:`))
+            );
+        const parsedData = YAML.parse(filteredData.join('\n'));
+        return parsedData
+    }
 }
-
-// fetchFile('unit', 'Adored City Girl 65556937.yml');
 fetchTree('unit');
+fetchTree('event');
+fetchTree('twist');
+fetchTree('dream');
+fetchTree('equip');
+fetchTree('member');
+
 

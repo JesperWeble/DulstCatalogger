@@ -1,0 +1,23 @@
+[
+  {
+    "atk": 3,
+    "cost": 2,
+    "title": "Katana"
+  },
+  {
+    "atk": 1,
+    "cost": 2,
+    "title": "Keris Dagger"
+  },
+  {
+    "atk": 1,
+    "cost": 2,
+    "title": "Knight's Shield"
+  },
+  {
+    "atk": 4,
+    "cost": 4,
+    "health": null,
+    "title": "Peko Cannon"
+  }
+]

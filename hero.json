@@ -1,0 +1,65 @@
+[
+  {
+    "atk": 0,
+    "effectsDescription": "<p><em><u>Time Travel</u></em></p><p>Return a unit to the hand.</p><p>It costs 2 less.</p>",
+    "expansion": "Start Collection",
+    "health": 30,
+    "title": "Amelia Watson"
+  },
+  {
+    "atk": 0,
+    "effectsDescription": "",
+    "expansion": "",
+    "health": 30,
+    "title": "Harusaki Nodoka"
+  },
+  {
+    "atk": 0,
+    "cost": null,
+    "effectsDescription": "<p><em><u>Princess Privileges</u></em></p><p>Summon two 1/1 <strong>Luknights </strong>with <strong>Vanguard.</strong></p>",
+    "expansion": "Start Collection",
+    "health": 30,
+    "reqSource": "",
+    "title": "Himemori Luna"
+  },
+  {
+    "atk": 0,
+    "cost": null,
+    "effectsDescription": "<p><em><u>Witchbolt</u></em></p><p>Deal 3 damage.</p>",
+    "expansion": "Start Collection",
+    "health": 30,
+    "reqSource": "",
+    "title": "Murasaki Shion"
+  },
+  {
+    "atk": 0,
+    "cost": "4",
+    "effectsDescription": "<p><strong><em><u>Circus Performance</u></em></strong></p><p>Take 2 damage, add two <strong>Instruments</strong> to your hand.</p>",
+    "expansion": "Start Collection",
+    "health": 30,
+    "title": "Omaru Polka"
+  },
+  {
+    "atk": 0,
+    "cost": "4",
+    "effectsDescription": "<p><em><u>Forage Harmony</u></em></p><p><strong>Discover</strong> a card from your deck</p><p>and draw it, it costs 1 less.</p>",
+    "expansion": "Start Collection",
+    "health": 30,
+    "title": "Shiranui Flare"
+  },
+  {
+    "atk": 0,
+    "cost": "4",
+    "effectsDescription": "<p><em><u>Yubi Yubi</u></em></p><p>Destroy a random enemy unit.</p>",
+    "expansion": "",
+    "health": 30,
+    "title": "Suzuhara Lulu"
+  },
+  {
+    "atk": 0,
+    "effectsDescription": "<p><em><u>Shiny Smily Story</u></em></p><p>Give all your units +1/+1.</p>",
+    "expansion": "Start Collection",
+    "health": 30,
+    "title": "Tokino Sora"
+  }
+]

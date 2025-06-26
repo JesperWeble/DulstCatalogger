@@ -1,6 +1,7 @@
 [
   {
     "title": "Adored City Girl",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 2,
@@ -12,6 +13,7 @@
   },
   {
     "title": "Anomalous Entity",
+    "type": "unit",
     "cost": 5,
     "atk": 5,
     "health": 5,
@@ -23,6 +25,7 @@
   },
   {
     "title": "Auto Violinist",
+    "type": "unit",
     "cost": 3,
     "atk": 1,
     "health": 5,
@@ -34,6 +37,7 @@
   },
   {
     "title": "Axe Lobber",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 1,
@@ -45,6 +49,7 @@
   },
   {
     "title": "Battle Maid",
+    "type": "unit",
     "cost": 4,
     "atk": 5,
     "health": 5,
@@ -56,6 +61,7 @@
   },
   {
     "title": "Best Friend",
+    "type": "unit",
     "cost": 4,
     "atk": 4,
     "health": 3,
@@ -67,6 +73,7 @@
   },
   {
     "title": "Big Beast",
+    "type": "unit",
     "cost": 5,
     "atk": 2,
     "health": 8,
@@ -78,6 +85,7 @@
   },
   {
     "title": "Blade Stylist",
+    "type": "unit",
     "cost": 2,
     "atk": 2,
     "health": 3,
@@ -89,6 +97,7 @@
   },
   {
     "title": "Bloodthirster",
+    "type": "unit",
     "cost": 20,
     "atk": 8,
     "health": 8,
@@ -100,6 +109,7 @@
   },
   {
     "title": "Bouncer",
+    "type": "unit",
     "cost": 4,
     "atk": 3,
     "health": 3,
@@ -111,6 +121,7 @@
   },
   {
     "title": "Chasing Dog",
+    "type": "unit",
     "cost": 1,
     "atk": 2,
     "health": 1,
@@ -122,6 +133,7 @@
   },
   {
     "title": "Clue Finder",
+    "type": "unit",
     "cost": 5,
     "atk": 4,
     "health": 4,
@@ -133,6 +145,7 @@
   },
   {
     "title": "Conservationist",
+    "type": "unit",
     "cost": 2,
     "atk": 2,
     "health": 3,
@@ -144,6 +157,7 @@
   },
   {
     "title": "Crazy Zombie",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 1,
@@ -155,6 +169,7 @@
   },
   {
     "title": "Cute Badass",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 3,
@@ -166,6 +181,7 @@
   },
   {
     "title": "Dark Mage",
+    "type": "unit",
     "cost": 2,
     "atk": 2,
     "health": 2,
@@ -177,6 +193,7 @@
   },
   {
     "title": "Delivery Girl",
+    "type": "unit",
     "cost": 2,
     "atk": 2,
     "health": 2,
@@ -188,6 +205,7 @@
   },
   {
     "title": "Demolition Expert",
+    "type": "unit",
     "cost": 2,
     "atk": 3,
     "health": 2,
@@ -199,6 +217,7 @@
   },
   {
     "title": "Devil Girlfriend",
+    "type": "unit",
     "cost": 8,
     "atk": 6,
     "health": 7,
@@ -210,6 +229,7 @@
   },
   {
     "title": "Drake",
+    "type": "unit",
     "cost": 3,
     "atk": 2,
     "health": 4,
@@ -221,6 +241,7 @@
   },
   {
     "title": "Fall Girl",
+    "type": "unit",
     "cost": 4,
     "atk": 3,
     "health": 4,
@@ -232,6 +253,7 @@
   },
   {
     "title": "Fantom",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 1,
@@ -243,6 +265,7 @@
   },
   {
     "title": "Fast Food Manager",
+    "type": "unit",
     "cost": 2,
     "atk": 1,
     "health": 1,
@@ -254,6 +277,7 @@
   },
   {
     "title": "Gift Wrapper",
+    "type": "unit",
     "cost": 1,
     "atk": 2,
     "health": 1,
@@ -265,6 +289,7 @@
   },
   {
     "title": "Gremlin",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 2,
@@ -276,6 +301,7 @@
   },
   {
     "title": "Grim Reaper",
+    "type": "unit",
     "cost": 15,
     "atk": 8,
     "health": 8,
@@ -287,6 +313,7 @@
   },
   {
     "title": "Half-Elven Archer",
+    "type": "unit",
     "cost": 3,
     "atk": 2,
     "health": 2,
@@ -298,6 +325,7 @@
   },
   {
     "title": "Harp Player",
+    "type": "unit",
     "cost": 2,
     "atk": 3,
     "health": 2,
@@ -309,6 +337,7 @@
   },
   {
     "title": "House Cat",
+    "type": "unit",
     "cost": 3,
     "atk": 2,
     "health": 4,
@@ -320,6 +349,7 @@
   },
   {
     "title": "Huntress",
+    "type": "unit",
     "cost": 3,
     "atk": 2,
     "health": 3,
@@ -331,6 +361,7 @@
   },
   {
     "title": "Idol of Worship",
+    "type": "unit",
     "cost": 4,
     "atk": 4,
     "health": 3,
@@ -342,6 +373,7 @@
   },
   {
     "title": "Injector",
+    "type": "unit",
     "cost": 2,
     "atk": 2,
     "health": 2,
@@ -353,6 +385,7 @@
   },
   {
     "title": "Juggler",
+    "type": "unit",
     "cost": 3,
     "atk": 2,
     "health": 2,
@@ -364,6 +397,7 @@
   },
   {
     "title": "Kishin",
+    "type": "unit",
     "cost": 15,
     "atk": 8,
     "health": 8,
@@ -375,6 +409,7 @@
   },
   {
     "title": "Knight Champion",
+    "type": "unit",
     "cost": 7,
     "atk": 7,
     "health": 7,
@@ -386,6 +421,7 @@
   },
   {
     "title": "Lady of Dawn",
+    "type": "unit",
     "cost": 5,
     "atk": 4,
     "health": 5,
@@ -397,6 +433,7 @@
   },
   {
     "title": "Lunar Princess",
+    "type": "unit",
     "cost": 3,
     "atk": 2,
     "health": 3,
@@ -408,6 +445,7 @@
   },
   {
     "title": "Lustrous Sleeper",
+    "type": "unit",
     "cost": 3,
     "atk": 3,
     "health": 3,
@@ -419,6 +457,7 @@
   },
   {
     "title": "Mage Conduit",
+    "type": "unit",
     "cost": 3,
     "atk": 3,
     "health": 3,
@@ -430,6 +469,7 @@
   },
   {
     "title": "Martyr",
+    "type": "unit",
     "cost": 6,
     "atk": 5,
     "health": 12,
@@ -441,6 +481,7 @@
   },
   {
     "title": "Overzealous Girlfriend",
+    "type": "unit",
     "cost": 5,
     "atk": 6,
     "health": 4,
@@ -452,6 +493,7 @@
   },
   {
     "title": "Paygiver",
+    "type": "unit",
     "cost": 3,
     "atk": 3,
     "health": 3,
@@ -463,6 +505,7 @@
   },
   {
     "title": "Pencil Sharpener",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 2,
@@ -474,6 +517,7 @@
   },
   {
     "title": "Police",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 1,
@@ -485,6 +529,7 @@
   },
   {
     "title": "Precious Princess",
+    "type": "unit",
     "cost": 4,
     "atk": 2,
     "health": 4,
@@ -496,6 +541,7 @@
   },
   {
     "title": "Priority Target",
+    "type": "unit",
     "cost": 2,
     "atk": 1,
     "health": 4,
@@ -507,6 +553,7 @@
   },
   {
     "title": "Psychopath",
+    "type": "unit",
     "cost": 5,
     "atk": 4,
     "health": 6,
@@ -518,6 +565,7 @@
   },
   {
     "title": "Reanimated Follower",
+    "type": "unit",
     "cost": 2,
     "atk": 2,
     "health": 2,
@@ -529,6 +577,7 @@
   },
   {
     "title": "Rising Star",
+    "type": "unit",
     "cost": 4,
     "atk": 4,
     "health": 3,
@@ -540,6 +589,7 @@
   },
   {
     "title": "Scary Cat",
+    "type": "unit",
     "cost": 2,
     "atk": 4,
     "health": 3,
@@ -551,6 +601,7 @@
   },
   {
     "title": "Scary Dog",
+    "type": "unit",
     "cost": 1,
     "atk": 3,
     "health": 2,
@@ -562,6 +613,7 @@
   },
   {
     "title": "Security Buffer",
+    "type": "unit",
     "cost": 5,
     "atk": 4,
     "health": 6,
@@ -573,6 +625,7 @@
   },
   {
     "title": "Shadow Clone",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 1,
@@ -584,6 +637,7 @@
   },
   {
     "title": "Sheltered Stranger",
+    "type": "unit",
     "cost": 1,
     "atk": 2,
     "health": 2,
@@ -595,6 +649,7 @@
   },
   {
     "title": "Shore Chaser",
+    "type": "unit",
     "cost": 1,
     "atk": 1,
     "health": 1,
@@ -606,6 +661,7 @@
   },
   {
     "title": "Shrine Maiden",
+    "type": "unit",
     "cost": 3,
     "atk": 3,
     "health": 3,
@@ -617,6 +673,7 @@
   },
   {
     "title": "Sitting Duck",
+    "type": "unit",
     "cost": 2,
     "atk": 0,
     "health": 2,
@@ -628,6 +685,7 @@
   },
   {
     "title": "Slasher",
+    "type": "unit",
     "cost": 3,
     "atk": 1,
     "health": 1,
@@ -639,6 +697,7 @@
   },
   {
     "title": "Spelunker",
+    "type": "unit",
     "cost": 2,
     "atk": 1,
     "health": 1,
@@ -650,6 +709,7 @@
   },
   {
     "title": "Steadfast Defender",
+    "type": "unit",
     "cost": 4,
     "atk": 2,
     "health": 6,
@@ -661,6 +721,7 @@
   },
   {
     "title": "Street Idol",
+    "type": "unit",
     "cost": 4,
     "atk": 4,
     "health": 5,
@@ -672,6 +733,7 @@
   },
   {
     "title": "Stumbling Flirt",
+    "type": "unit",
     "cost": 4,
     "atk": 5,
     "health": 4,
@@ -683,6 +745,7 @@
   },
   {
     "title": "The Fool",
+    "type": "unit",
     "cost": 0,
     "atk": 1,
     "health": 1,
@@ -694,6 +757,7 @@
   },
   {
     "title": "The Victim",
+    "type": "unit",
     "cost": 4,
     "atk": 3,
     "health": 3,
@@ -705,6 +769,7 @@
   },
   {
     "title": "Thirsty Demoness",
+    "type": "unit",
     "cost": 4,
     "atk": 5,
     "health": 6,
@@ -716,6 +781,7 @@
   },
   {
     "title": "Time Traveler",
+    "type": "unit",
     "cost": 2,
     "atk": 3,
     "health": 2,
@@ -727,6 +793,7 @@
   },
   {
     "title": "Tribal Queen",
+    "type": "unit",
     "cost": 4,
     "atk": 4,
     "health": 4,
@@ -738,6 +805,7 @@
   },
   {
     "title": "Vicious Boxer",
+    "type": "unit",
     "cost": 5,
     "atk": 5,
     "health": 6,
@@ -749,6 +817,7 @@
   },
   {
     "title": "Witch Adept",
+    "type": "unit",
     "cost": 4,
     "atk": 4,
     "health": 3,
@@ -760,6 +829,7 @@
   },
   {
     "title": "Yandere Necromancer",
+    "type": "unit",
     "cost": 6,
     "atk": 6,
     "health": 5,

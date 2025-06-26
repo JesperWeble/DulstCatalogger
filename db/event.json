@@ -1,344 +1,458 @@
 [
   {
-    "atk": 1,
+    "title": "Accelerate",
+    "type": "event",
     "cost": 1,
+    "atk": 1,
+    "health": 1,
     "effectsDescription": "<p><strong>Discard</strong> your lowest cost card and give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
     "expansion": "Start Collection",
-    "health": 1,
-    "reqSource": null,
-    "title": "Accelerate"
+    "reqSource": [
+      "Okashii"
+    ]
   },
   {
-    "atk": null,
+    "title": "Accusation",
+    "type": "event",
     "cost": 3,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage.</p><p>Draw a card.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Accusation"
+    "reqSource": [
+      ""
+    ]
   },
   {
-    "atk": 0,
+    "title": "Asserting Dominance",
+    "type": "event",
     "cost": 3,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Destroy the opponent's </p><p><strong>Members </strong>and <strong>Dreams</strong>.</p><p>Draw a card.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Asserting Dominance"
+    "reqSource": [
+      ""
+    ]
   },
   {
-    "atk": 0,
+    "title": "Bang",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to a unit.</p><p>If that destroys it, <strong>Echo</strong>.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Bang"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Call To Arms",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Add two 1/1 <strong>Luknights</strong> to your hand.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Call To Arms"
+    "reqSource": [
+      "Banchou"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Candid Motivation",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Give your units +1/+0.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Candid Motivation"
+    "reqSource": [
+      "Banchou"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Clear Skies",
+    "type": "event",
     "cost": 2,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Draw a card.</p><p>Give units in your hand +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Clear Skies"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Encore",
+    "type": "event",
     "cost": 2,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p><strong>Discover</strong> a unit from your afterlife and summon it with 1 health remaining.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Encore"
+    "reqSource": [
+      "Idol"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Explosive Delivery",
+    "type": "event",
     "cost": 2,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Add 3 <strong>TNT </strong>to your deck.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Explosive Delivery"
+    "reqSource": [
+      "Gunshi"
+    ]
   },
   {
-    "atk": 1,
+    "title": "Explosive Nut",
+    "type": "event",
     "cost": 1,
+    "atk": 1,
+    "health": 1,
     "effectsDescription": "<p><strong>Discard</strong> your lowest cost card and deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to ALL characters.</p>",
     "expansion": "Start Collection",
-    "health": 1,
-    "reqSource": null,
-    "title": "Explosive Nut"
+    "reqSource": [
+      "Okashii"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Fishing",
+    "type": "event",
     "cost": 3,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Draw 2 cards.</p><p>Restore <cardproperty name=\"effectHealing\">4</cardproperty> health to your hero.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Fishing"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Flash Carve",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to the enemy hero.</p><p><strong>Synergy: </strong>Draw another copy of this.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Flash Carve"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": null,
+    "title": "Freeze Blast",
+    "type": "event",
     "cost": 2,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage.</p><p><strong>Stun</strong> the target.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Freeze Blast"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Grandma's Passion",
+    "type": "event",
     "cost": 5,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Give your units +<cardproperty name=\"buff_atk\">3</cardproperty>/+<cardproperty name=\"buff_health\">0 this turn.</cardproperty></p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Grandma's Passion"
+    "reqSource": [
+      "Banchou"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Grenade",
+    "type": "event",
     "cost": 4,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage and add a</p><p><strong>TNT </strong>to the top of your deck.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Grenade"
+    "reqSource": [
+      "Gunshi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Juggle",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Split <cardproperty name=\"effectHits\">5</cardproperty> damage randomly among</p><p>ALL characters.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Juggle"
+    "reqSource": [
+      "Okashii"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Magic Burst",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to ALL units.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Magic Burst"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": null,
+    "title": "Mega Punch",
+    "type": "event",
     "cost": 1,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Give your hero +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p><p>Add a <strong>Brawn </strong>to your hand.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Mega Punch"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": 1,
+    "title": "Murderous Intent",
+    "type": "event",
     "cost": 3,
+    "atk": 1,
+    "health": 1,
     "effectsDescription": "<p>Destroy a random enemy unit</p><p><strong>Discarded: </strong>Trigger this.</p>",
     "expansion": "Start Collection",
-    "health": 1,
-    "reqSource": null,
-    "title": "Murderous Intent"
+    "reqSource": [
+      "Okashii"
+    ]
   },
   {
-    "atk": null,
+    "title": "Nuke",
+    "type": "event",
     "cost": 7,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Destroy all cards in play and add a <strong>TNT</strong> to your deck for each.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Nuke"
+    "reqSource": [
+      "Gunshi"
+    ]
   },
   {
-    "atk": 1,
+    "title": "Painting",
+    "type": "event",
     "cost": 1,
+    "atk": 1,
+    "health": 1,
     "effectsDescription": "<p>Add a copy of a random card in the enemy hand to yours.</p>",
     "expansion": "Start Collection",
-    "health": 1,
-    "reqSource": null,
-    "title": "Painting"
+    "reqSource": [
+      "Okashii"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Pathfinding",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p><strong>Discover</strong> a card from the top five of your deck and draw it.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Pathfinding"
+    "reqSource": [
+      "Gunshi"
+    ]
   },
   {
-    "atk": null,
+    "title": "Quasar Wave",
+    "type": "event",
     "cost": 7,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to all enemy units</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Quasar Wave"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Reap",
+    "type": "event",
     "cost": 4,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Destroy a unit.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Reap"
+    "reqSource": [
+      ""
+    ]
   },
   {
-    "atk": null,
+    "title": "Refreshment",
+    "type": "event",
     "cost": 1,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Refresh your hero power.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Refreshment"
+    "reqSource": [
+      ""
+    ]
   },
   {
-    "atk": 1,
+    "title": "Scare",
+    "type": "event",
     "cost": 2,
+    "atk": 1,
+    "health": 1,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to a random enemy unit.</p>",
     "expansion": "Start Collection",
-    "health": 1,
-    "reqSource": null,
-    "title": "Scare"
+    "reqSource": [
+      "Okashii"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Serenade",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Set the remaining health of a unit to 1.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Serenade"
+    "reqSource": [
+      "Idol"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Shooting Star",
+    "type": "event",
     "cost": 5,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to all enemies and restore <cardproperty name=\"effectHealing\">2 health to all friendly characters.</cardproperty></p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Shooting Star"
+    "reqSource": [
+      "Idol"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Soul Tap",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Destroy a friendly unit.</p><p>Give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Soul Tap"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Spark of Joy",
+    "type": "event",
     "cost": 2,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Gain +<cardproperty name=\"gain_mana\">1</cardproperty> max <strong>Hope</strong>.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Spark of Joy"
+    "reqSource": [
+      "Idol"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Spell Bolt",
+    "type": "event",
     "cost": 4,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">6</cardproperty> damage.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Spell Bolt"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Spotlight",
+    "type": "event",
     "cost": 4,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Give a unit +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">4</cardproperty>.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Spotlight"
+    "reqSource": [
+      "Idol"
+    ]
   },
   {
-    "atk": 1,
+    "title": "Stimulant",
+    "type": "event",
     "cost": 2,
+    "atk": 1,
+    "health": 1,
     "effectsDescription": "<p>Give a unit two random <strong>Mutations</strong>.</p>",
     "expansion": "Start Collection",
-    "health": 1,
-    "reqSource": null,
-    "title": "Stimulant"
+    "reqSource": [
+      "Okashii"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Storm Bolt",
+    "type": "event",
     "cost": 1,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage.</p><p>Add a 1/2 <strong>Weather Spirit </strong>to your hand.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Storm Bolt"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Tension Release",
+    "type": "event",
     "cost": 4,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p>Give your hero +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p><p><em>Costs 1 less for each unit that has attacked this turn.</em></p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Tension Release"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": null,
+    "title": "Trident Barrage",
+    "type": "event",
     "cost": 2,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to two enemy units.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Trident Barrage"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": null,
+    "title": "Twin Rushdown",
+    "type": "event",
     "cost": 2,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p>Choose a character and summon two 1/1 <strong>Ruffians</strong> with <strong>Rush </strong>to attack it.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Twin Rushdown"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": null,
+    "title": "Wonder Blast",
+    "type": "event",
     "cost": 2,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p><strong>Choice:</strong></p><p>Deal 3 damage;</p><p>Deal 1 damage and draw a card;</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Wonder Blast"
+    "reqSource": [
+      "Idol"
+    ]
   }
 ]

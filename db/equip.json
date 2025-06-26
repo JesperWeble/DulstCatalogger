@@ -1,35 +1,47 @@
 [
   {
-    "atk": 3,
+    "title": "Katana",
+    "type": "equip",
     "cost": 2,
+    "atk": 3,
     "effectsDescription": "",
     "expansion": "Start Collection",
-    "reqSource": null,
-    "title": "Katana"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": 1,
+    "title": "Keris Dagger",
+    "type": "equip",
     "cost": 2,
+    "atk": 1,
     "effectsDescription": "<p><strong>Post Offense:</strong> Draw a card.</p>",
     "expansion": "Start Collection",
-    "reqSource": null,
-    "title": "Keris Dagger"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": 1,
+    "title": "Knight's Shield",
+    "type": "equip",
     "cost": 2,
+    "atk": 1,
     "effectsDescription": "<p>Whenever your hero takes damage, lose 1 durability.</p>",
     "expansion": "Start Collection",
-    "reqSource": null,
-    "title": "Knight's Shield"
+    "reqSource": [
+      "Banchou"
+    ]
   },
   {
-    "atk": 4,
+    "title": "Peko Cannon",
+    "type": "equip",
     "cost": 4,
+    "atk": 4,
+    "health": null,
     "effectsDescription": "<p>After you attack, add a <strong>TNT </strong>to your deck.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Peko Cannon"
+    "reqSource": [
+      "Gunshi"
+    ]
   }
 ]

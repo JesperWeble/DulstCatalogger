@@ -1,45 +1,60 @@
 [
   {
-    "atk": null,
+    "title": "Battle Stance",
+    "type": "member",
     "cost": 2,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p><strong>Activate: </strong>Give your hero +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Battle Stance"
+    "reqSource": [
+      "Senshi"
+    ]
   },
   {
-    "atk": 0,
+    "title": "Execratio",
+    "type": "member",
     "cost": 3,
+    "atk": 0,
+    "health": 0,
     "effectsDescription": "<p><strong>Activate: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage.</p>",
     "expansion": "Start Collection",
-    "health": 0,
-    "reqSource": null,
-    "title": "Execratio"
+    "reqSource": [
+      "Madoushi"
+    ]
   },
   {
-    "atk": 2,
+    "title": "Hard Work",
+    "type": "member",
     "cost": 2,
+    "atk": 2,
+    "health": 2,
     "effectsDescription": "<p><strong>Activate: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to a friendly unit and give it +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
     "expansion": "Start Collection",
-    "health": 2,
-    "reqSource": null,
-    "title": "Hard Work"
+    "reqSource": [
+      "Banchou"
+    ]
   },
   {
-    "atk": null,
+    "title": "Process of Elimination",
+    "type": "member",
     "cost": 2,
+    "atk": null,
+    "health": null,
     "effectsDescription": "<p><strong>Activate: Mulligan</strong> one card.</p>",
     "expansion": "Start Collection",
-    "health": null,
-    "reqSource": null,
-    "title": "Process of Elimination"
+    "reqSource": [
+      "Gunshi"
+    ]
   },
   {
+    "title": "Slice of Heaven",
+    "type": "member",
     "cost": 2,
     "effectsDescription": "<p><strong>Activate: </strong>Restore <cardproperty name=\"effectHealing\">2</cardproperty> health.</p>",
     "expansion": "Start Collection",
-    "reqSource": null,
-    "title": "Slice of Heaven"
+    "reqSource": [
+      "Idol"
+    ]
   }
 ]

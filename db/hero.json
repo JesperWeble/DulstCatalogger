@@ -1,65 +1,73 @@
 [
   {
+    "title": "Amelia Watson",
+    "type": "hero",
     "atk": 0,
+    "health": 30,
     "effectsDescription": "<p><em><u>Time Travel</u></em></p><p>Return a unit to the hand.</p><p>It costs 2 less.</p>",
-    "expansion": "Start Collection",
-    "health": 30,
-    "title": "Amelia Watson"
+    "expansion": "Start Collection"
   },
   {
+    "title": "Harusaki Nodoka",
+    "type": "hero",
     "atk": 0,
+    "health": 30,
     "effectsDescription": "",
-    "expansion": "",
-    "health": 30,
-    "title": "Harusaki Nodoka"
+    "expansion": ""
   },
   {
-    "atk": 0,
+    "title": "Himemori Luna",
+    "type": "hero",
     "cost": null,
+    "atk": 0,
+    "health": 30,
     "effectsDescription": "<p><em><u>Princess Privileges</u></em></p><p>Summon two 1/1 <strong>Luknights </strong>with <strong>Vanguard.</strong></p>",
     "expansion": "Start Collection",
-    "health": 30,
-    "reqSource": "",
-    "title": "Himemori Luna"
+    "reqSource": ""
   },
   {
-    "atk": 0,
+    "title": "Murasaki Shion",
+    "type": "hero",
     "cost": null,
+    "atk": 0,
+    "health": 30,
     "effectsDescription": "<p><em><u>Witchbolt</u></em></p><p>Deal 3 damage.</p>",
     "expansion": "Start Collection",
-    "health": 30,
-    "reqSource": "",
-    "title": "Murasaki Shion"
+    "reqSource": ""
   },
   {
-    "atk": 0,
+    "title": "Omaru Polka",
+    "type": "hero",
     "cost": "4",
+    "atk": 0,
+    "health": 30,
     "effectsDescription": "<p><strong><em><u>Circus Performance</u></em></strong></p><p>Take 2 damage, add two <strong>Instruments</strong> to your hand.</p>",
-    "expansion": "Start Collection",
-    "health": 30,
-    "title": "Omaru Polka"
+    "expansion": "Start Collection"
   },
   {
-    "atk": 0,
+    "title": "Shiranui Flare",
+    "type": "hero",
     "cost": "4",
+    "atk": 0,
+    "health": 30,
     "effectsDescription": "<p><em><u>Forage Harmony</u></em></p><p><strong>Discover</strong> a card from your deck</p><p>and draw it, it costs 1 less.</p>",
-    "expansion": "Start Collection",
-    "health": 30,
-    "title": "Shiranui Flare"
+    "expansion": "Start Collection"
   },
   {
-    "atk": 0,
+    "title": "Suzuhara Lulu",
+    "type": "hero",
     "cost": "4",
-    "effectsDescription": "<p><em><u>Yubi Yubi</u></em></p><p>Destroy a random enemy unit.</p>",
-    "expansion": "",
+    "atk": 0,
     "health": 30,
-    "title": "Suzuhara Lulu"
+    "effectsDescription": "<p><em><u>Yubi Yubi</u></em></p><p>Destroy a random enemy unit.</p>",
+    "expansion": ""
   },
   {
+    "title": "Tokino Sora",
+    "type": "hero",
     "atk": 0,
-    "effectsDescription": "<p><em><u>Shiny Smily Story</u></em></p><p>Give all your units +1/+1.</p>",
-    "expansion": "Start Collection",
     "health": 30,
-    "title": "Tokino Sora"
+    "effectsDescription": "<p><em><u>Shiny Smily Story</u></em></p><p>Give all your units +1/+1.</p>",
+    "expansion": "Start Collection"
   }
 ]

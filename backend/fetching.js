@@ -6,7 +6,7 @@ import * as exporting from './exporting_toExcel.js';
 const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
 const pageSize = 100; // Number of items per page
-
+let fullCardContext = [];
 export async function fetchTree(cardType, propsToExtract)
 {
     const treePath = encodeURIComponent(`src/cards/${cardType}`);
@@ -56,7 +56,8 @@ export async function fetchTree(cardType, propsToExtract)
     console.log(`Saved ${cardType}.json`);
 
     // Export all cards to Excel
-    await exporting.writeToExcel(allCards);
+    allCards.sort((a, b) => a.cost - b.cost); // Sort cards by cost
+    fullCardContext.push(...allCards);
 }
 
 export async function fetchFile(cardType, propsToExtract, fileName)
@@ -91,7 +92,7 @@ export async function fetchFile(cardType, propsToExtract, fileName)
 
 
 
-        
+
         // const filteredData = data
         //     .split('\n')
         //     .filter(line => 
@@ -104,7 +105,14 @@ export async function fetchFile(cardType, propsToExtract, fileName)
 
 export async function fetchAllCards(cardTypes, propsToExtract)
 {
-    fetchTree('unit', propsToExtract);
-    // const promises = cardTypes.map(cardType => fetchTree(cardType, propsToExtract));
-    // await Promise.all(promises);
+    fullCardContext = [];
+    
+    const promises = cardTypes.map(cardType => fetchTree(cardType, propsToExtract));
+    await Promise.all(promises);
+    fullCardContext.sort((a, b) =>
+    {
+        const priority = ['unit', 'event', 'twist', 'dream', 'equip', 'member'];
+        return priority.indexOf(a.type) - priority.indexOf(b.type);
+    });
+    await exporting.writeToExcel(fullCardContext);
 }

@@ -73,18 +73,32 @@ export async function fetchFile(cardType, propsToExtract, fileName)
     const data = await response.text();
     if (data.includes('version: alpha')) 
     {
-        console.log(`Skipping ${fileName} due to alpha version`);
+        // console.log(`Skipping ${fileName} due to alpha version`);
         return null; // Skip files with 'version: alpha'
     }
     else
     {
-        const filteredData = data
-            .split('\n')
-            .filter(line => 
-                propsToExtract.some(prop => line.startsWith(`${prop}:`))
-            );
-        const parsedData = YAML.parse(filteredData.join('\n'));
-        return parsedData
+        const parsedData = YAML.parse(data);
+        const filteredData = {};
+        propsToExtract.forEach(prop => 
+        {
+            if (parsedData[prop] !== undefined)
+            {
+                filteredData[prop] = parsedData[prop];
+            } 
+        });
+        return filteredData
+
+
+
+        
+        // const filteredData = data
+        //     .split('\n')
+        //     .filter(line => 
+        //         propsToExtract.some(prop => line.startsWith(`${prop}:`))
+        //     );
+        // const parsedData = YAML.parse(filteredData.join('\n'));
+        // return parsedData
     }
 }
 

@@ -17,7 +17,7 @@ export async function writeToExcel(cards)
         console.log(`Processing cards for source: ${reqSource}`);
         if (reqSource == 'Neutral') {reqSourceCards = cards.filter(card => card.reqSource == '');}
         else {reqSourceCards = cards.filter(card => card.reqSource == reqSource);}
-        let arkRowBonus = 2;
+        let arkRowBonus = 1;
         let arkRow;
         reqSourceCards.forEach(card =>
         {
@@ -35,10 +35,8 @@ export async function writeToExcel(cards)
             
     
             // ENSURE THERE IS SPACE FOR THE CARD
-            if (controlCell.fill?.fgColor?.argb)
+            if (controlCell.fill?.fgColor?.argb || controlCell.fill?.bgColor?.argb)
             {
-                console.log(arkRow + 2);
-                console.log(`controlCell fill color: ${controlCell.fill.fgColor.argb}`);
                 excelTab.spliceRows(arkRow + 1, 0, []);
 
                 // Ensure that the new row has the same style as the previous row.
@@ -64,7 +62,28 @@ export async function writeToExcel(cards)
             
             columns.forEach((column, value) =>
             {
-                excelTab.getCell(`${column}${arkRow}`).value = values[value];
+                const cell = excelTab.getCell(`${column}${arkRow}`)
+                const oldStyle = {...cell.style}
+                if (column == 'G')
+                {
+                    cell.value = 
+                    { 
+                        richText: values[value] 
+                        .replace(/<\/?p>/g, '')
+                        .split(/<\/?strong>/)
+                        .map((text, i) =>
+                        ({
+                            text: text.replace(/<[^>]+>/g, ''),
+                            font: i % 2 ? { bold: true } : undefined,
+                        }))
+                    };
+                    cell.style = oldStyle; // Preserve the old style
+
+                }
+                else
+                {
+                    cell.value = values[value];
+                }
     
             });
             arkRowBonus++;

@@ -53,7 +53,7 @@ export async function fetchTree(cardType, propsToExtract)
     };
     console.log(`Fetched ${allCards.length} cards of type ${cardType}`);
     await fs.writeFile(`db/${cardType}.json`, JSON.stringify(allCards, null, 2));
-    console.log(`Saved ${cardType}.json`);
+    console.log(`Saved ${cardType}.json\n`);
 
     // Export all cards to Excel
     allCards.sort((a, b) => a.cost - b.cost); // Sort cards by cost
@@ -86,6 +86,7 @@ export async function fetchFile(cardType, propsToExtract, fileName)
             if (parsedData[prop] !== undefined)
             {
                 filteredData[prop] = parsedData[prop];
+                    
             } 
         });
         return filteredData

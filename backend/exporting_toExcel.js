@@ -1,4 +1,5 @@
-import ExcelJS from 'exceljs';
+import ExcelJS from 'exceljs'; // For reading and writing Excel files
+import * as cheerio from 'cheerio'; // For parsing HTML content in the card effects
 import fs from 'fs/promises';
 
 export async function writeToExcel(cards)
@@ -63,26 +64,66 @@ export async function writeToExcel(cards)
             columns.forEach((column, value) =>
             {
                 const cell = excelTab.getCell(`${column}${arkRow}`)
-                const oldStyle = {...cell.style}
+                
+                const defaultFont = 
+                {
+                    name: 'Arial',
+                    size: 10,
+                    bgColor: { argb: 'FFD9D9D9' }, // Grey background
+                };
+                
                 if (column == 'G')
                 {
-                    cell.value = 
-                    { 
-                        richText: values[value] 
-                        .replace(/<\/?p>/g, '')
-                        .split(/<\/?strong>/)
-                        .map((text, i) =>
-                        ({
-                            text: text.replace(/<[^>]+>/g, ''),
-                            font: i % 2 ? { bold: true } : undefined,
-                        }))
-                    };
-                    cell.style = oldStyle; // Preserve the old style
+                    if (values[value] && values[value].trim())
+                    {
+                        // Parse the HTML content using cheerio
+                        const $ = cheerio.load(values[value]);
+                        const richText = [];
+                        
+
+                        // Extract text and apply styles
+                        $('p').contents().each((_, node) =>
+                        {
+                            if (node.tagName === 'strong') 
+                            {
+
+                                if ($(node).text().trim())
+                                {
+                                    richText.push
+                                    ({
+                                        text: $(node).text(),
+                                        font: { ...defaultFont, bold: true }
+                                    });
+
+                                }
+                            }
+                            else
+                            {
+                                if (node.data && node.data.trim())
+                                {
+                                    richText.push
+                                    ({
+                                        text: node.data,
+                                        font: { ...defaultFont }
+                                    });
+
+                                }
+                            }
+
+                        });
+                        cell.value = { richText };
+                    }
+                    else
+                    {
+                        cell.value = '- - -';
+                        cell.style = { ...cell.style }
+                    }
 
                 }
                 else
                 {
                     cell.value = values[value];
+                    // cell.style = { ...defaultFont };
                 }
     
             });

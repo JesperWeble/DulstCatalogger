@@ -2,14 +2,30 @@ import ExcelJS from 'exceljs'; // For reading and writing Excel files
 import * as cheerio from 'cheerio'; // For parsing HTML content in the card effects
 import * as app from './app.js'
 
+const excelArk = new ExcelJS.Workbook();
+let excelTab
+
+// Loads a specific tab for a specific excel ark that everything else will refer to.
+export async function loadExcelArk(ark, tab)
+{
+    console.log(`Fetched ${ark}.xlsx on ${tab} Tab\n`)
+    await excelArk.xlsx.readFile(`${ark}.xlsx`);
+    excelTab = excelArk.getWorksheet(tab);
+
+}
+
+export async function addTab(tab)
+{
+    await excelArk.xlsx.readFile(`${ark}.xlsx`);
+    excelTab = excelArk.getWorksheet(tab);
+
+}
+
 export async function writeToExcel(cards)
 {
+    console.log(`writing to ${excelTab}`)
     const reqSources = ['Idol', 'Banchou', 'Senshi', 'Gunshi', 'Madoushi', 'Okashii', 'Neutral'];
-    const excelArk = new ExcelJS.Workbook();
-    await excelArk.xlsx.readFile('TestSheet.xlsx');
     
-
-    const excelTab = excelArk.getWorksheet('All');
 
 
     // Order by Source
@@ -156,7 +172,10 @@ export async function writeToExcel(cards)
 
     });
 
+}
 
-    await excelArk.xlsx.writeFile('TestSheet-updated.xlsx');
+export async function finalize(toArk)
+{
+    await excelArk.xlsx.writeFile(`${toArk}.xlsx`);
     console.log('Excel file updated successfully!');
 }

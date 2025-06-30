@@ -112,6 +112,7 @@ export async function writeToExcel(cards)
                         // Extract text and apply styles
                         $('p').contents().each((_, node) =>
                         {
+
                             if (node.tagName === 'strong') 
                             {
 

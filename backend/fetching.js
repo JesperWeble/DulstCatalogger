@@ -90,17 +90,6 @@ export async function fetchFile(cardType, propsToExtract, fileName)
             } 
         });
         return filteredData
-
-
-
-
-        // const filteredData = data
-        //     .split('\n')
-        //     .filter(line => 
-        //         propsToExtract.some(prop => line.startsWith(`${prop}:`))
-        //     );
-        // const parsedData = YAML.parse(filteredData.join('\n'));
-        // return parsedData
     }
 }
 

@@ -2,10 +2,30 @@
   {
     "title": "Accelerate",
     "type": "event",
+    "class": [
+      "Nature"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Discard</strong> your lowest cost card and give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Korone"
+      },
+      {
+        "artist": "sakino shingetsu"
+      },
+      {
+        "effect_discard": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -14,10 +34,28 @@
   {
     "title": "Accusation",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 3,
     "atk": null,
     "health": null,
+    "dur": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage.</p><p>Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Towa"
+      },
+      {
+        "artist": "riui"
+      },
+      {
+        "neutral": "1"
+      },
+      {
+        "effectDamage": "3"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -26,10 +64,24 @@
   {
     "title": "Asserting Dominance",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 3,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Destroy the opponent's </p><p><strong>Members </strong>and <strong>Dreams</strong>.</p><p>Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Ollie"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "neutral": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -38,10 +90,27 @@
   {
     "title": "Bang",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to a unit.</p><p>If that destroys it, <strong>Echo</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Dokibird"
+      },
+      {
+        "artist": "SonBrokuDa"
+      },
+      {
+        "guest": "1"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -50,10 +119,24 @@
   {
     "title": "Call To Arms",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Add two 1/1 <strong>Luknights</strong> to your hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Luna"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "cardToSpawn": "64477049"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -62,10 +145,27 @@
   {
     "title": "Candid Motivation",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Give your units +1/+0.</p>",
+    "customCardProperties": [
+      {
+        "character": "Luna"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -74,10 +174,27 @@
   {
     "title": "Clear Skies",
     "type": "event",
+    "class": [
+      "Nature"
+    ],
     "cost": 2,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Draw a card.</p><p>Give units in your hand +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Kobo"
+      },
+      {
+        "artist": "kuroqueta"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -86,10 +203,21 @@
   {
     "title": "Encore",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 2,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p><strong>Discover</strong> a unit from your afterlife and summon it with 1 health remaining.</p>",
+    "customCardProperties": [
+      {
+        "character": "Sora"
+      },
+      {
+        "artist": "furai sen"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -98,10 +226,27 @@
   {
     "title": "Explosive Delivery",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 2,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Add 3 <strong>TNT </strong>to your deck.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "strength": "3"
+      },
+      {
+        "cardToSpawn": "67433940"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -110,10 +255,24 @@
   {
     "title": "Explosive Nut",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Discard</strong> your lowest cost card and deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to ALL characters.</p>",
+    "customCardProperties": [
+      {
+        "character": "Risu"
+      },
+      {
+        "artist": "Digiral"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -122,10 +281,27 @@
   {
     "title": "Fishing",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 3,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Draw 2 cards.</p><p>Restore <cardproperty name=\"effectHealing\">4</cardproperty> health to your hero.</p>",
+    "customCardProperties": [
+      {
+        "character": "Gura"
+      },
+      {
+        "artist": "hirotaka0125"
+      },
+      {
+        "strength": "2"
+      },
+      {
+        "effectHealing": "4"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -134,10 +310,27 @@
   {
     "title": "Flash Carve",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to the enemy hero.</p><p><strong>Synergy: </strong>Draw another copy of this.</p>",
+    "customCardProperties": [
+      {
+        "character": "Enma"
+      },
+      {
+        "artist": "@astako_tan"
+      },
+      {
+        "effect_synergy": "1"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -146,10 +339,25 @@
   {
     "title": "Freeze Blast",
     "type": "event",
+    "class": [
+      "Nature"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
+    "dur": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage.</p><p><strong>Stun</strong> the target.</p>",
+    "customCardProperties": [
+      {
+        "character": "Lamy"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effectDamage": "3"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -158,10 +366,27 @@
   {
     "title": "Grandma's Passion",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 5,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Give your units +<cardproperty name=\"buff_atk\">3</cardproperty>/+<cardproperty name=\"buff_health\">0 this turn.</cardproperty></p>",
+    "customCardProperties": [
+      {
+        "character": "Marine"
+      },
+      {
+        "artist": "@Koba_Ayu403"
+      },
+      {
+        "buff_atk": "3"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -170,10 +395,27 @@
   {
     "title": "Grenade",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 4,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage and add a</p><p><strong>TNT </strong>to the top of your deck.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "CUTESEXYROBUTTS"
+      },
+      {
+        "effectDamage": "4"
+      },
+      {
+        "cardToSpawn": "67433940"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -182,10 +424,27 @@
   {
     "title": "Juggle",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Split <cardproperty name=\"effectHits\">5</cardproperty> damage randomly among</p><p>ALL characters.</p>",
+    "customCardProperties": [
+      {
+        "character": "Polka"
+      },
+      {
+        "artist": "@siba_29"
+      },
+      {
+        "effect_multihit": "1"
+      },
+      {
+        "effectDamage": "5"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -194,10 +453,24 @@
   {
     "title": "Magic Burst",
     "type": "event",
+    "class": [
+      "Void"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to ALL units.</p>",
+    "customCardProperties": [
+      {
+        "character": "Shion"
+      },
+      {
+        "artist": "harapeko zombie inu"
+      },
+      {
+        "effectDamage": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -206,10 +479,30 @@
   {
     "title": "Mega Punch",
     "type": "event",
+    "class": [
+      "Nature"
+    ],
     "cost": 1,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>Give your hero +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p><p>Add a <strong>Brawn </strong>to your hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Kanata"
+      },
+      {
+        "artist": "awokani"
+      },
+      {
+        "buff_atk": "2"
+      },
+      {
+        "buff_health": "0"
+      },
+      {
+        "cardToSpawn": "67903801"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -218,10 +511,24 @@
   {
     "title": "Murderous Intent",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 3,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p>Destroy a random enemy unit</p><p><strong>Discarded: </strong>Trigger this.</p>",
+    "customCardProperties": [
+      {
+        "character": "Mumei"
+      },
+      {
+        "artist": "bing huyue"
+      },
+      {
+        "effect_destroy": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -230,10 +537,24 @@
   {
     "title": "Nuke",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 7,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>Destroy all cards in play and add a <strong>TNT</strong> to your deck for each.</p>",
+    "customCardProperties": [
+      {
+        "character": "Mumei"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "cardToSpawn": "67433940"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -242,10 +563,21 @@
   {
     "title": "Painting",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p>Add a copy of a random card in the enemy hand to yours.</p>",
+    "customCardProperties": [
+      {
+        "character": "Iofi"
+      },
+      {
+        "artist": "伊刈かく"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -254,10 +586,27 @@
   {
     "title": "Pathfinding",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p><strong>Discover</strong> a card from the top five of your deck and draw it.</p>",
+    "customCardProperties": [
+      {
+        "character": "Noel"
+      },
+      {
+        "character": "Flare"
+      },
+      {
+        "artist": "chipstar182"
+      },
+      {
+        "effect_discover": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -266,10 +615,24 @@
   {
     "title": "Quasar Wave",
     "type": "event",
+    "class": [
+      "Void"
+    ],
     "cost": 7,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to all enemy units</p>",
+    "customCardProperties": [
+      {
+        "character": "Laplus"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effectDamage": "4"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -278,10 +641,24 @@
   {
     "title": "Reap",
     "type": "event",
+    "class": [
+      "Death"
+    ],
     "cost": 4,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Destroy a unit.</p>",
+    "customCardProperties": [
+      {
+        "character": "Calli"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "neutral": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -290,10 +667,24 @@
   {
     "title": "Refreshment",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 1,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>Refresh your hero power.</p>",
+    "customCardProperties": [
+      {
+        "character": "A-Chan"
+      },
+      {
+        "artist": "shara (syara so ju)"
+      },
+      {
+        "neutral": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -302,10 +693,24 @@
   {
     "title": "Scare",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 2,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to a random enemy unit.</p>",
+    "customCardProperties": [
+      {
+        "character": "Mumei"
+      },
+      {
+        "artist": "HasaRang"
+      },
+      {
+        "effectDamage": "4"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -314,10 +719,21 @@
   {
     "title": "Serenade",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Set the remaining health of a unit to 1.</p>",
+    "customCardProperties": [
+      {
+        "character": "Kanade"
+      },
+      {
+        "artist": "@mashuretsu"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -326,10 +742,27 @@
   {
     "title": "Shooting Star",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 5,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to all enemies and restore <cardproperty name=\"effectHealing\">2 health to all friendly characters.</cardproperty></p>",
+    "customCardProperties": [
+      {
+        "character": "Suisei"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effectDamage": "2"
+      },
+      {
+        "effectHealing": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -338,10 +771,27 @@
   {
     "title": "Soul Tap",
     "type": "event",
+    "class": [
+      "Death"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Destroy a friendly unit.</p><p>Give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Calli"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -350,10 +800,24 @@
   {
     "title": "Spark of Joy",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 2,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Gain +<cardproperty name=\"gain_mana\">1</cardproperty> max <strong>Hope</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Irys"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "gain_mana": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -362,10 +826,24 @@
   {
     "title": "Spell Bolt",
     "type": "event",
+    "class": [
+      "Void"
+    ],
     "cost": 4,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">6</cardproperty> damage.</p>",
+    "customCardProperties": [
+      {
+        "character": "Shion"
+      },
+      {
+        "artist": "izumi sai"
+      },
+      {
+        "effectDamage": "6"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -374,10 +852,27 @@
   {
     "title": "Spotlight",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 4,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Give a unit +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">4</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Nene"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "buff_atk": "4"
+      },
+      {
+        "buff_health": "4"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -386,10 +881,27 @@
   {
     "title": "Stimulant",
     "type": "event",
+    "class": [
+      "Civilization"
+    ],
     "cost": 2,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p>Give a unit two random <strong>Mutations</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Amelia"
+      },
+      {
+        "artist": "akairiot"
+      },
+      {
+        "effect_mutate": "1"
+      },
+      {
+        "strength": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -398,10 +910,27 @@
   {
     "title": "Storm Bolt",
     "type": "event",
+    "class": [
+      "Nature"
+    ],
     "cost": 1,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage.</p><p>Add a 1/2 <strong>Weather Spirit </strong>to your hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Kobo"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effectDamage": "2"
+      },
+      {
+        "cardToSpawn": "66026767"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -410,10 +939,27 @@
   {
     "title": "Tension Release",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 4,
     "atk": 0,
     "health": 0,
     "effectsDescription": "<p>Give your hero +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p><p><em>Costs 1 less for each unit that has attacked this turn.</em></p>",
+    "customCardProperties": [
+      {
+        "character": "Kanata"
+      },
+      {
+        "artist": "mikan (chipstar182)"
+      },
+      {
+        "effect_onHand": "1"
+      },
+      {
+        "buff_atk": "4"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -422,10 +968,24 @@
   {
     "title": "Trident Barrage",
     "type": "event",
+    "class": [
+      "Nature"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to two enemy units.</p>",
+    "customCardProperties": [
+      {
+        "character": "Gura"
+      },
+      {
+        "artist": "daichi"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -434,10 +994,42 @@
   {
     "title": "Twin Rushdown",
     "type": "event",
+    "class": [
+      "Chaos"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>Choose a character and summon two 1/1 <strong>Ruffians</strong> with <strong>Rush </strong>to attack it.</p>",
+    "customCardProperties": [
+      {
+        "character": "Fuwamoco"
+      },
+      {
+        "character": "Fuwawa"
+      },
+      {
+        "character": "Mococo"
+      },
+      {
+        "artist": "dork ill"
+      },
+      {
+        "buff_atk": "2"
+      },
+      {
+        "buff_health": "0"
+      },
+      {
+        "cardToSpawn": "67830856"
+      },
+      {
+        "spawnCount": "2"
+      },
+      {
+        "fwmcGen": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -446,10 +1038,27 @@
   {
     "title": "Wonder Blast",
     "type": "event",
+    "class": [
+      "Hope"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p><strong>Choice:</strong></p><p>Deal 3 damage;</p><p>Deal 1 damage and draw a card;</p>",
+    "customCardProperties": [
+      {
+        "character": "Azki"
+      },
+      {
+        "artist": "mille"
+      },
+      {
+        "effect_choice": "1"
+      },
+      {
+        "effectDamage": "3"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"

@@ -2,10 +2,27 @@
   {
     "title": "Blessing of God",
     "type": "twist",
+    "class": [
+      "Hope"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>When a friendly unit is attacked, </p><p>give it +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">2</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Matsuri"
+      },
+      {
+        "artist": "seabaku"
+      },
+      {
+        "buff_atk": "2"
+      },
+      {
+        "buff_health": "2"
+      }
+    ],
     "expansion": "Standard Pack",
     "reqSource": [
       "Okashii"
@@ -14,10 +31,24 @@
   {
     "title": "Curse of Undeath",
     "type": "twist",
+    "class": [
+      "Death"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>When a friendly unit is destroyed, summon a 2/2 <strong>Skeleton</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Rushia"
+      },
+      {
+        "artist": "pasoda"
+      },
+      {
+        "cardToSpawn": "64677960"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -26,10 +57,24 @@
   {
     "title": "Desolation Bomb",
     "type": "twist",
+    "class": [
+      "Civilization"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>When an enemy attacks your hero, deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to all enemies.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -38,10 +83,24 @@
   {
     "title": "Dreamcatcher",
     "type": "twist",
+    "class": [
+      "Void"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>When the enemy plays a card,</p><p>add two copies of it to your hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Nimi"
+      },
+      {
+        "artist": "GG_Gloocifer"
+      },
+      {
+        "guest": "1"
+      }
+    ],
     "expansion": "Standard Pack",
     "reqSource": [
       "Okashii"
@@ -50,10 +109,21 @@
   {
     "title": "Event Reset",
     "type": "twist",
+    "class": [
+      "Time"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>When the enemy plays an event, return it to hand and increase its cost by 2.</p>",
+    "customCardProperties": [
+      {
+        "character": "Amelia"
+      },
+      {
+        "artist": "undefinedArtist"
+      }
+    ],
     "expansion": "Standard Pack",
     "reqSource": [
       "Gunshi"
@@ -62,10 +132,24 @@
   {
     "title": "First Resort",
     "type": "twist",
+    "class": [
+      "Nature"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>When your hero is attacked, summon a 2/1 <strong>Older Brother</strong> as the new target.</p>",
+    "customCardProperties": [
+      {
+        "character": "Kobo"
+      },
+      {
+        "artist": "aragiken"
+      },
+      {
+        "cardToSpawn": "69258497"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -74,10 +158,24 @@
   {
     "title": "Landmine",
     "type": "twist",
+    "class": [
+      "Civilization"
+    ],
     "cost": 2,
     "atk": null,
     "health": null,
     "effectsDescription": "<p>When the opponent plays a unit,</p><p>deal <cardproperty name=\"effectDamage\">4</cardproperty> damage to it.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "effectDamage": "4"
+      },
+      {
+        "artist": "undefinedArtist"
+      }
+    ],
     "expansion": "Standard Pack",
     "reqSource": [
       "Gunshi"

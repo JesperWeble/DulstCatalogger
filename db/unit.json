@@ -2,10 +2,33 @@
   {
     "title": "Adored City Girl",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 2,
     "effectsDescription": "<p><strong>Provoked: </strong>Summon a 1/1 <strong>Luknight </strong>with <strong>Vanguard</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Calli"
+      },
+      {
+        "artist": "@fluffycatfish3"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effect_provoked": "1"
+      },
+      {
+        "buff_armor": "1"
+      },
+      {
+        "cardToSpawn": "64477049"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -14,10 +37,33 @@
   {
     "title": "Anomalous Entity",
     "type": "unit",
+    "class": [
+      "Eldritch"
+    ],
     "cost": 5,
     "atk": 5,
     "health": 5,
     "effectsDescription": "<p><strong>Invoke & Inspire: </strong>Deal <cardproperty name=\"effectDamage\">3</cardproperty> damage to both heroes.</p>",
+    "customCardProperties": [
+      {
+        "character": "Lulu"
+      },
+      {
+        "artist": "zyaki"
+      },
+      {
+        "guest": "1"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effect_inspire": "1"
+      },
+      {
+        "effectDamage": "3"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -26,10 +72,31 @@
   {
     "title": "Auto Violinist",
     "type": "unit",
+    "class": [
+      "Construct"
+    ],
     "cost": 3,
     "atk": 1,
     "health": 5,
+    "dur": null,
     "effectsDescription": "<p><strong>At turn start:</strong> Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to a</p><p>random enemy.</p>",
+    "customCardProperties": [
+      {
+        "character": "Cecilia"
+      },
+      {
+        "artist": "jiang ye kiri"
+      },
+      {
+        "neutral": "1"
+      },
+      {
+        "effect_repeating": "1"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -38,10 +105,27 @@
   {
     "title": "Axe Lobber",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage.</p>",
+    "customCardProperties": [
+      {
+        "character": "Korone"
+      },
+      {
+        "artist": "tanayuma"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effectDamage": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -50,10 +134,24 @@
   {
     "title": "Battle Maid",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 4,
     "atk": 5,
     "health": 5,
     "effectsDescription": "<p>Has attack equal to this unit's health.</p>",
+    "customCardProperties": [
+      {
+        "character": "Aqua"
+      },
+      {
+        "artist": "you06"
+      },
+      {
+        "effect_passive": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -62,10 +160,27 @@
   {
     "title": "Best Friend",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 4,
     "atk": 4,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: </strong>Silence a unit.</p>",
+    "customCardProperties": [
+      {
+        "character": "Fubuki"
+      },
+      {
+        "artist": "@kamimurahiiro"
+      },
+      {
+        "neutral": "1"
+      },
+      {
+        "effect_invoke": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -74,10 +189,30 @@
   {
     "title": "Big Beast",
     "type": "unit",
+    "class": [
+      "Monster"
+    ],
     "cost": 5,
     "atk": 2,
     "health": 8,
     "effectsDescription": "<p><strong>Provoked:</strong> Gain +<cardproperty name=\"buff_atk\">4</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> and <strong>Vanguard</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Coco"
+      },
+      {
+        "artist": "ryusei hashida"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "buff_atk": "4"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -86,10 +221,33 @@
   {
     "title": "Blade Stylist",
     "type": "unit",
+    "class": [
+      "Construct"
+    ],
     "cost": 2,
     "atk": 2,
     "health": 3,
     "effectsDescription": "<p><strong>Offense: </strong>Give your hero +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p>",
+    "customCardProperties": [
+      {
+        "character": "Anya"
+      },
+      {
+        "artist": "maaru (jatjem1vy6nok0o)"
+      },
+      {
+        "effect_offense": "1"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -98,10 +256,25 @@
   {
     "title": "Bloodthirster",
     "type": "unit",
+    "class": [
+      "Animal",
+      "Myth"
+    ],
     "cost": 20,
     "atk": 8,
     "health": 8,
     "effectsDescription": "<p><em>Costs 1 less for every point of damage your hero has taken this match.</em></p>",
+    "customCardProperties": [
+      {
+        "character": "Gura"
+      },
+      {
+        "artist": "odyssey 21"
+      },
+      {
+        "effect_onHand": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -110,10 +283,27 @@
   {
     "title": "Bouncer",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 4,
     "atk": 3,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: </strong>Return a unit to the hand with attack =< this card's attack.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "vanguard": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -122,10 +312,24 @@
   {
     "title": "Chasing Dog",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 1,
     "atk": 2,
     "health": 1,
     "effectsDescription": "",
+    "customCardProperties": [
+      {
+        "character": "Korone"
+      },
+      {
+        "artist": "jazz jack"
+      },
+      {
+        "haste": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -134,10 +338,28 @@
   {
     "title": "Clue Finder",
     "type": "unit",
+    "class": [
+      "Human",
+      "Myth"
+    ],
     "cost": 5,
     "atk": 4,
     "health": 4,
     "effectsDescription": "<p><strong>Invoke: </strong>Draw your lowest cost card. <strong>Mulligan</strong> one card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Amelia"
+      },
+      {
+        "artist": "oeuia"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effect_mulligan": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -146,10 +368,30 @@
   {
     "title": "Conservationist",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 2,
     "atk": 2,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: Mulligan</strong> one card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Risu"
+      },
+      {
+        "artist": "jurrig"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effect_mulligan": "1"
+      },
+      {
+        "hidden": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -158,10 +400,24 @@
   {
     "title": "Crazy Zombie",
     "type": "unit",
+    "class": [
+      "Undead"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Legacy: </strong>Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Ollie"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_legacy": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -170,10 +426,27 @@
   {
     "title": "Cute Badass",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 3,
     "effectsDescription": "<p><strong>Inspire: </strong>Draw a card</p>",
+    "customCardProperties": [
+      {
+        "character": "Hajime"
+      },
+      {
+        "artist": "akitsu mikami"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effect_inspire": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -182,10 +455,34 @@
   {
     "title": "Dark Mage",
     "type": "unit",
+    "class": [
+      "Human",
+      "Myth"
+    ],
     "cost": 2,
     "atk": 2,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage\">1</cardproperty> damage to another unit if that destroys it, gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Shion"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effectDamage": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -194,10 +491,24 @@
   {
     "title": "Delivery Girl",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 2,
     "atk": 2,
     "health": 2,
     "effectsDescription": "<p><strong>Synergy: </strong>Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Iroha"
+      },
+      {
+        "artist": "@emutakanoe"
+      },
+      {
+        "effect_synergy": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -206,10 +517,27 @@
   {
     "title": "Demolition Expert",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 2,
     "atk": 3,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Add a <strong>TNT</strong> to your deck.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "cardToSpawn": "67433940"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -218,10 +546,27 @@
   {
     "title": "Devil Girlfriend",
     "type": "unit",
+    "class": [
+      "Demon"
+    ],
     "cost": 8,
     "atk": 6,
     "health": 7,
     "effectsDescription": "<p><strong>Invoke: </strong>Take control of an enemy unit with <cardproperty name=\"unstrength\">2</cardproperty> or less health.</p>",
+    "customCardProperties": [
+      {
+        "character": "Nerissa"
+      },
+      {
+        "artist": "@Keiseeaaa"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "unstrength": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -230,10 +575,21 @@
   {
     "title": "Drake",
     "type": "unit",
+    "class": [
+      "Monster"
+    ],
     "cost": 3,
     "atk": 2,
     "health": 4,
     "effectsDescription": "<p><strong>Provoked: </strong>Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Coco"
+      },
+      {
+        "artist": "asimo953"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -242,10 +598,24 @@
   {
     "title": "Fall Girl",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 4,
     "atk": 3,
     "health": 4,
     "effectsDescription": "<p><strong>Invoke: </strong>Set the attack and remaining health of a unit to 3.</p>",
+    "customCardProperties": [
+      {
+        "character": "Aqua"
+      },
+      {
+        "artist": "shikiyofukashi"
+      },
+      {
+        "effect_invoke": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -254,10 +624,31 @@
   {
     "title": "Fantom",
     "type": "unit",
+    "class": [
+      "Undead",
+      "Spirit"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Legacy: </strong>Add a <strong>Concert </strong>to your hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Mint"
+      },
+      {
+        "artist": "Daemo72"
+      },
+      {
+        "guest": "1"
+      },
+      {
+        "effect_legacy": "1"
+      },
+      {
+        "cardToSpawn": "64330760"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -266,10 +657,31 @@
   {
     "title": "Fast Food Manager",
     "type": "unit",
+    "class": [
+      "Animal",
+      "Myth"
+    ],
     "cost": 2,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Legacy: </strong>Summon a 1/1 <strong>Employee</strong> </p><p>with <strong>Haste.</strong></p>",
+    "customCardProperties": [
+      {
+        "character": "Kiara"
+      },
+      {
+        "artist": "tyyni"
+      },
+      {
+        "effect_legacy": "1"
+      },
+      {
+        "respawn": "1"
+      },
+      {
+        "cardToSpawn": "65666258"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -278,10 +690,24 @@
   {
     "title": "Gift Wrapper",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 1,
     "atk": 2,
     "health": 1,
     "effectsDescription": "<p><strong>Invoke: </strong>Add a random <strong>Event</strong> to the hand of both players.</p>",
+    "customCardProperties": [
+      {
+        "character": "Polka"
+      },
+      {
+        "artist": "minus_zero69"
+      },
+      {
+        "effect_invoke": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -290,10 +716,33 @@
   {
     "title": "Gremlin",
     "type": "unit",
+    "class": [
+      "Myth"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 2,
     "effectsDescription": "<p><strong>Offense: </strong>Gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Gigi"
+      },
+      {
+        "artist": "u u2 12"
+      },
+      {
+        "effect_offense": "1"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -302,10 +751,25 @@
   {
     "title": "Grim Reaper",
     "type": "unit",
+    "class": [
+      "Undead",
+      "Myth"
+    ],
     "cost": 15,
     "atk": 8,
     "health": 8,
     "effectsDescription": "<p>Costs 1 less for each friendly unit that was destroyed this match.</p>",
+    "customCardProperties": [
+      {
+        "character": "Calli"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_onHand": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -314,10 +778,27 @@
   {
     "title": "Half-Elven Archer",
     "type": "unit",
+    "class": [
+      "Fey"
+    ],
     "cost": 3,
     "atk": 2,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage\">2</cardproperty> damage.</p>",
+    "customCardProperties": [
+      {
+        "character": "Flare"
+      },
+      {
+        "artist": "6mint"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -326,10 +807,27 @@
   {
     "title": "Harp Player",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 2,
     "atk": 3,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Restore <cardproperty name=\"effectHealing\">2</cardproperty> health.</p>",
+    "customCardProperties": [
+      {
+        "character": "Fauna"
+      },
+      {
+        "artist": "NAMIORII"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effectHealing": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -338,10 +836,33 @@
   {
     "title": "House Cat",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 3,
     "atk": 2,
     "health": 4,
     "effectsDescription": "<p><strong>Legacy: </strong>Restore <cardproperty name=\"effectHealing\">4</cardproperty> health to your hero.</p>",
+    "customCardProperties": [
+      {
+        "character": "Okayu"
+      },
+      {
+        "artist": "tarakore sauce"
+      },
+      {
+        "neutral": "1"
+      },
+      {
+        "effect_legacy": "1"
+      },
+      {
+        "vanguard": "1"
+      },
+      {
+        "effectHealing": "4"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -350,10 +871,31 @@
   {
     "title": "Huntress",
     "type": "unit",
+    "class": [
+      "Celestial",
+      "Animal"
+    ],
     "cost": 3,
     "atk": 2,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: </strong>Add <strong>Arrow Strike</strong> to your hand.</p><p><strong>Synergy: </strong>Reduce it's cost by 1.</p>",
+    "customCardProperties": [
+      {
+        "character": "Mumei"
+      },
+      {
+        "artist": "fgsketch"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effect_synergy": "1"
+      },
+      {
+        "cardToSpawn": "67678544"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -362,10 +904,25 @@
   {
     "title": "Idol of Worship",
     "type": "unit",
+    "class": [
+      "Eldritch",
+      "Myth"
+    ],
     "cost": 4,
     "atk": 4,
     "health": 3,
     "effectsDescription": "<p><strong>Legacy: </strong>Summon a random 2 cost unit.</p>",
+    "customCardProperties": [
+      {
+        "character": "Ina"
+      },
+      {
+        "artist": "pyrokuro"
+      },
+      {
+        "effect_legacy": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -374,10 +931,27 @@
   {
     "title": "Injector",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 2,
     "atk": 2,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: Mutate </strong>any friendly unit.</p>",
+    "customCardProperties": [
+      {
+        "character": "Koyori"
+      },
+      {
+        "artist": "owl15"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effect_mutate": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -386,10 +960,24 @@
   {
     "title": "Juggler",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 3,
     "atk": 2,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Both players draw two cards.</p>",
+    "customCardProperties": [
+      {
+        "character": "Polka"
+      },
+      {
+        "artist": "@sui_hi_sf"
+      },
+      {
+        "effect_invoke": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -398,10 +986,25 @@
   {
     "title": "Kishin",
     "type": "unit",
+    "class": [
+      "Demon",
+      "Myth"
+    ],
     "cost": 15,
     "atk": 8,
     "health": 8,
     "effectsDescription": "<p><em>Costs 1 less for every card you've played this game.</em></p>",
+    "customCardProperties": [
+      {
+        "character": "Ayame"
+      },
+      {
+        "artist": "torino aqua"
+      },
+      {
+        "effect_onHand": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -410,10 +1013,30 @@
   {
     "title": "Knight Champion",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 7,
     "atk": 7,
     "health": 7,
     "effectsDescription": "<p>Your other units have +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Noel"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_aura": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -422,10 +1045,27 @@
   {
     "title": "Lady of Dawn",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 5,
     "atk": 4,
     "health": 5,
     "effectsDescription": "<p><strong>Invoke:</strong> Restore <cardproperty name=\"effectHealing\">5</cardproperty> health and </p><p>Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Sora"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effectHealing": "5"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -434,10 +1074,30 @@
   {
     "title": "Lunar Princess",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 3,
     "atk": 2,
     "health": 3,
     "effectsDescription": "<p>Your other units have +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Luna"
+      },
+      {
+        "artist": "hane yoshiyumi"
+      },
+      {
+        "effect_aura": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -446,10 +1106,27 @@
   {
     "title": "Lustrous Sleeper",
     "type": "unit",
+    "class": [
+      "Construct"
+    ],
     "cost": 3,
     "atk": 3,
     "health": 3,
     "effectsDescription": "<p>Has <strong>Sturdy</strong> during the opponent's turn.</p>",
+    "customCardProperties": [
+      {
+        "character": "Bijou"
+      },
+      {
+        "artist": "@428clv"
+      },
+      {
+        "effect_passive": "1"
+      },
+      {
+        "vanguard": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -458,10 +1135,30 @@
   {
     "title": "Mage Conduit",
     "type": "unit",
+    "class": [
+      "Myth"
+    ],
     "cost": 3,
     "atk": 3,
     "health": 3,
     "effectsDescription": "<p>Whenever you play an <strong>Event</strong>, gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Shion"
+      },
+      {
+        "artist": "pisuke wan"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -470,10 +1167,27 @@
   {
     "title": "Martyr",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 6,
     "atk": 5,
     "health": 12,
     "effectsDescription": "<p><strong>Invoke: </strong>This takes <cardproperty name=\"effectDamage\">6</cardproperty> damage.</p>",
+    "customCardProperties": [
+      {
+        "character": "Elizabeth"
+      },
+      {
+        "artist": "@Mikururun"
+      },
+      {
+        "effectDamage": "6"
+      },
+      {
+        "vanguard": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -482,10 +1196,27 @@
   {
     "title": "Overzealous Girlfriend",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 5,
     "atk": 6,
     "health": 4,
     "effectsDescription": "<p><strong>Overkill: </strong>Add a copy of the target to your hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Matsuri"
+      },
+      {
+        "artist": "kukie_nyan"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effect_overkill": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -494,10 +1225,30 @@
   {
     "title": "Paygiver",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 3,
     "atk": 3,
     "health": 3,
     "effectsDescription": "<p>Whenever a friendly unit is damaged, give it +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -506,10 +1257,30 @@
   {
     "title": "Pencil Sharpener",
     "type": "unit",
+    "class": [
+      "Construct"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Give another friendly character +<cardproperty name=\"buff_atk\">2</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty> this turn.</p>",
+    "customCardProperties": [
+      {
+        "character": "Anya"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "buff_atk": "2"
+      },
+      {
+        "buff_health": "0"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -518,10 +1289,27 @@
   {
     "title": "Police",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Invoke: </strong>Stun an enemy.</p>",
+    "customCardProperties": [
+      {
+        "character": "Subaru"
+      },
+      {
+        "artist": "fumibeing"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "snipe": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -530,10 +1318,36 @@
   {
     "title": "Precious Princess",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 4,
     "atk": 2,
     "health": 4,
     "effectsDescription": "<p><strong>Invoke: </strong>Give adjacent units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty> and <strong>Vanguard</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Luna"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "AI_POSITION": "7"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effect_provoked": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -542,10 +1356,30 @@
   {
     "title": "Priority Target",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 2,
     "atk": 1,
     "health": 4,
     "effectsDescription": "<p>At the end of your turn add a <strong>TNT</strong> to your deck.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "shio05_"
+      },
+      {
+        "effect_repeating": "1"
+      },
+      {
+        "cardToSpawn": "67433940"
+      },
+      {
+        "vanguard": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -554,10 +1388,27 @@
   {
     "title": "Psychopath",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 5,
     "atk": 4,
     "health": 6,
     "effectsDescription": "<p>At the end of your turn deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to the enemy hero.</p>",
+    "customCardProperties": [
+      {
+        "character": "Suisei"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_repeating": "1"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -566,10 +1417,27 @@
   {
     "title": "Reanimated Follower",
     "type": "unit",
+    "class": [
+      "Undead"
+    ],
     "cost": 2,
     "atk": 2,
     "health": 2,
     "effectsDescription": "<p><strong>Legacy: </strong>Summon a 2/2 <strong>Skeleton</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Ollie"
+      },
+      {
+        "artist": "DINCAT"
+      },
+      {
+        "effect_legacy": "1"
+      },
+      {
+        "cardToSpawn": "64677960"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -578,10 +1446,27 @@
   {
     "title": "Rising Star",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 4,
     "atk": 4,
     "health": 3,
     "effectsDescription": "<p>Whenever a friendly character is healed, deal <cardproperty name=\"effectDamage\">2</cardproperty> damage to a random enemy.</p>",
+    "customCardProperties": [
+      {
+        "character": "Suisei"
+      },
+      {
+        "artist": "teluscarlet"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -590,10 +1475,27 @@
   {
     "title": "Scary Cat",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 2,
     "atk": 4,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: </strong>Discard a random card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Okayu"
+      },
+      {
+        "artist": "nanome"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effect_discard": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -602,10 +1504,24 @@
   {
     "title": "Scary Dog",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 1,
     "atk": 3,
     "health": 2,
     "effectsDescription": "",
+    "customCardProperties": [
+      {
+        "character": "Korone"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "cursed": "3"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -614,10 +1530,33 @@
   {
     "title": "Security Buffer",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 5,
     "atk": 4,
     "health": 6,
     "effectsDescription": "<p><strong>Legacy: </strong>Summon a 0/1 <strong>Pokobe.</strong></p>",
+    "customCardProperties": [
+      {
+        "character": "Iroha"
+      },
+      {
+        "artist": "rupina"
+      },
+      {
+        "neutral": "1"
+      },
+      {
+        "vanguard": "1"
+      },
+      {
+        "effect_legacy": "1"
+      },
+      {
+        "cardToSpawn": "69848908"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -626,10 +1565,27 @@
   {
     "title": "Shadow Clone",
     "type": "unit",
+    "class": [
+      "Undead"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Invoke: </strong>Summon an exact copy of this.</p>",
+    "customCardProperties": [
+      {
+        "character": "Ollie"
+      },
+      {
+        "artist": "屈機龍"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "cardToSpawn": "67830856"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -638,10 +1594,30 @@
   {
     "title": "Sheltered Stranger",
     "type": "unit",
+    "class": [
+      "Eldritch"
+    ],
     "cost": 1,
     "atk": 2,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Deal 1 damage to any </p><p>friendly unit.</p>",
+    "customCardProperties": [
+      {
+        "character": "Lulu"
+      },
+      {
+        "artist": "yotsugi"
+      },
+      {
+        "guest": "1"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effectDamage": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -650,10 +1626,34 @@
   {
     "title": "Shore Chaser",
     "type": "unit",
+    "class": [
+      "Animal",
+      "Myth"
+    ],
     "cost": 1,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Synergy: </strong>Gain <strong>Rush</strong></p>",
+    "customCardProperties": [
+      {
+        "character": "Gura"
+      },
+      {
+        "artist": "kofimate22"
+      },
+      {
+        "effect_synergy": "1"
+      },
+      {
+        "frenzy": "1"
+      },
+      {
+        "inactiveImage": "https://d2t4fc8ff77neh.cloudfront.net/generatedImage/1invs2itr_67545250.jpg"
+      },
+      {
+        "activeImage": "https://d2t4fc8ff77neh.cloudfront.net/generatedImage/1invs0pgj_67545250.jpg"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -662,10 +1662,27 @@
   {
     "title": "Shrine Maiden",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 3,
     "atk": 3,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: </strong>Give any friendly unit <strong>Shield</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Miko"
+      },
+      {
+        "artist": "atatatatame01"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "keywordToApply": "shield"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Idol"
@@ -674,10 +1691,30 @@
   {
     "title": "Sitting Duck",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 2,
     "atk": 0,
     "health": 2,
     "effectsDescription": "<p><strong>Legacy: </strong>Summon a 4/4 <strong>Duck</strong>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Subaru"
+      },
+      {
+        "artist": "tagosaku (tatsukiuma0329)"
+      },
+      {
+        "effect_legacy": "1"
+      },
+      {
+        "cardToSpawn": "65161380"
+      },
+      {
+        "AI_WantsToKill": "1.5"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -686,10 +1723,34 @@
   {
     "title": "Slasher",
     "type": "unit",
+    "class": [
+      "Eldritch",
+      "Human"
+    ],
     "cost": 3,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Invoke: </strong>Deal <cardproperty name=\"effectDamage[0]\">1</cardproperty>-<cardproperty name=\"effectDamage[1]\">3</cardproperty> damage and add two 1/1 <strong>Horrors</strong> to your hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Haachama"
+      },
+      {
+        "artist": "magowasabi"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effectDamage": "1"
+      },
+      {
+        "effectDamage": "3"
+      },
+      {
+        "cardToSpawn": "67501880"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -698,10 +1759,27 @@
   {
     "title": "Spelunker",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 2,
     "atk": 1,
     "health": 1,
     "effectsDescription": "<p><strong>Invoke: </strong>Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Korone"
+      },
+      {
+        "artist": "hashiguma"
+      },
+      {
+        "neutral": "1"
+      },
+      {
+        "effect_invoke": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -710,10 +1788,36 @@
   {
     "title": "Steadfast Defender",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 4,
     "atk": 2,
     "health": 6,
     "effectsDescription": "<p><strong>Provoked: </strong>Gain +<cardproperty name=\"buff_atk\">3</cardproperty>/+<cardproperty name=\"buff_health\">0</cardproperty>.</p>",
+    "customCardProperties": [
+      {
+        "character": "Noel"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effect_provoked": "1"
+      },
+      {
+        "buff_atk": "3"
+      },
+      {
+        "buff_health": "0"
+      },
+      {
+        "vanguard": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -722,10 +1826,33 @@
   {
     "title": "Street Idol",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 4,
     "atk": 4,
     "health": 5,
     "effectsDescription": "<p><strong>Inspire: </strong>Give your units +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty></p>",
+    "customCardProperties": [
+      {
+        "character": "Sora"
+      },
+      {
+        "artist": "auroraescientia"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effect_inspire": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -734,10 +1861,27 @@
   {
     "title": "Stumbling Flirt",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 4,
     "atk": 5,
     "health": 4,
     "effectsDescription": "<p><strong>Legacy: </strong>Destroy enemy members and dreams.</p>",
+    "customCardProperties": [
+      {
+        "character": "Ao"
+      },
+      {
+        "artist": "pankeiki"
+      },
+      {
+        "neutral": "1"
+      },
+      {
+        "effect_legacy": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       ""
@@ -746,10 +1890,24 @@
   {
     "title": "The Fool",
     "type": "unit",
+    "class": [
+      "Eldritch"
+    ],
     "cost": 0,
     "atk": 1,
     "health": 1,
     "effectsDescription": "",
+    "customCardProperties": [
+      {
+        "drawFirst": "1"
+      },
+      {
+        "rush": "1"
+      },
+      {
+        "frenzy": "3"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Anti"
@@ -758,10 +1916,31 @@
   {
     "title": "The Victim",
     "type": "unit",
+    "class": [
+      "Human",
+      "Eldritch"
+    ],
     "cost": 4,
     "atk": 3,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: </strong>Add two <strong>Horrors</strong> to your hand.</p><p><strong>Discarded: </strong>Summon this</p>",
+    "customCardProperties": [
+      {
+        "character": "Haato"
+      },
+      {
+        "character": "Haachama"
+      },
+      {
+        "artist": "HuyBu51art"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "cardToSpawn": "67501880"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -770,10 +1949,30 @@
   {
     "title": "Thirsty Demoness",
     "type": "unit",
+    "class": [
+      "Demon"
+    ],
     "cost": 4,
     "atk": 5,
     "health": 6,
     "effectsDescription": "",
+    "customCardProperties": [
+      {
+        "character": "Choco"
+      },
+      {
+        "artist": "5to_rai"
+      },
+      {
+        "effect_none": "1"
+      },
+      {
+        "cursed": "5"
+      },
+      {
+        "lifesteal": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Okashii"
@@ -782,10 +1981,25 @@
   {
     "title": "Time Traveler",
     "type": "unit",
+    "class": [
+      "Human",
+      "Myth"
+    ],
     "cost": 2,
     "atk": 3,
     "health": 2,
     "effectsDescription": "<p><strong>Invoke: </strong>Return another friendly unit to the hand.</p>",
+    "customCardProperties": [
+      {
+        "character": "Amelia"
+      },
+      {
+        "artist": "Ninomae Ina'nis"
+      },
+      {
+        "effect_invoke": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"
@@ -794,10 +2008,30 @@
   {
     "title": "Tribal Queen",
     "type": "unit",
+    "class": [
+      "Fey"
+    ],
     "cost": 4,
     "atk": 4,
     "health": 4,
     "effectsDescription": "<p>After your hero attacks, gain +<cardproperty name=\"buff_atk\">1</cardproperty>/+<cardproperty name=\"buff_health\">1</cardproperty></p>",
+    "customCardProperties": [
+      {
+        "character": "Aki"
+      },
+      {
+        "artist": "mikomikosu"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "buff_atk": "1"
+      },
+      {
+        "buff_health": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -806,10 +2040,30 @@
   {
     "title": "Vicious Boxer",
     "type": "unit",
+    "class": [
+      "Animal"
+    ],
     "cost": 5,
     "atk": 5,
     "health": 6,
     "effectsDescription": "<p><strong>Offense: </strong>Deal 2 damage to a random enemy.</p>",
+    "customCardProperties": [
+      {
+        "character": "Korone"
+      },
+      {
+        "artist": "tokumaro"
+      },
+      {
+        "effect_offense": "1"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effectDamage": "2"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -818,10 +2072,28 @@
   {
     "title": "Witch Adept",
     "type": "unit",
+    "class": [
+      "Human",
+      "Myth"
+    ],
     "cost": 4,
     "atk": 4,
     "health": 3,
     "effectsDescription": "<p><strong>Invoke: Conjure</strong> two copies of an <strong>Event </strong>in your afterlife.</p>",
+    "customCardProperties": [
+      {
+        "character": "Shion"
+      },
+      {
+        "artist": "@chikuwanorimaki"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "effect_conjure": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"
@@ -830,10 +2102,27 @@
   {
     "title": "Yandere Necromancer",
     "type": "unit",
+    "class": [
+      "Human"
+    ],
     "cost": 6,
     "atk": 6,
     "health": 5,
     "effectsDescription": "<p><strong>Invoke: Conjure</strong> two copies of a unit<strong> </strong>in your afterlife.</p>",
+    "customCardProperties": [
+      {
+        "character": "Rushia"
+      },
+      {
+        "artist": "null maru"
+      },
+      {
+        "effect_invoke": "1"
+      },
+      {
+        "unarchived": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Madoushi"

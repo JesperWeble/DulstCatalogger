@@ -2,9 +2,21 @@
   {
     "title": "Katana",
     "type": "equip",
+    "class": [
+      "Melee"
+    ],
     "cost": 2,
     "atk": 3,
+    "dur": 2,
     "effectsDescription": "",
+    "customCardProperties": [
+      {
+        "character": "Iroha"
+      },
+      {
+        "artist": "shigi4"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -13,9 +25,27 @@
   {
     "title": "Keris Dagger",
     "type": "equip",
+    "class": [
+      "Melee"
+    ],
     "cost": 2,
     "atk": 1,
+    "dur": 2,
     "effectsDescription": "<p><strong>Post Offense:</strong> Draw a card.</p>",
+    "customCardProperties": [
+      {
+        "character": "Anya"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "effect_offense": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Senshi"
@@ -24,9 +54,27 @@
   {
     "title": "Knight's Shield",
     "type": "equip",
+    "class": [
+      "Gear"
+    ],
     "cost": 2,
     "atk": 1,
+    "dur": 3,
     "effectsDescription": "<p>Whenever your hero takes damage, lose 1 durability.</p>",
+    "customCardProperties": [
+      {
+        "character": "Noel"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "sturdy": "1"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Banchou"
@@ -35,10 +83,28 @@
   {
     "title": "Peko Cannon",
     "type": "equip",
+    "class": [
+      "Ranged"
+    ],
     "cost": 4,
     "atk": 4,
     "health": null,
+    "dur": 2,
     "effectsDescription": "<p>After you attack, add a <strong>TNT </strong>to your deck.</p>",
+    "customCardProperties": [
+      {
+        "character": "Pekora"
+      },
+      {
+        "artist": "undefinedArtist"
+      },
+      {
+        "effect_occasional": "1"
+      },
+      {
+        "cardToSpawn": "67433940"
+      }
+    ],
     "expansion": "Start Collection",
     "reqSource": [
       "Gunshi"

@@ -1,10 +1,9 @@
 import ExcelJS from 'exceljs'; // For reading and writing Excel files
 import * as cheerio from 'cheerio'; // For parsing HTML content in the card effects
-import fs from 'fs/promises';
+import * as app from './app.js'
 
 export async function writeToExcel(cards)
 {
-
     const reqSources = ['Idol', 'Banchou', 'Senshi', 'Gunshi', 'Madoushi', 'Okashii', 'Neutral'];
     const excelArk = new ExcelJS.Workbook();
     await excelArk.xlsx.readFile('TestSheet.xlsx');
@@ -12,6 +11,8 @@ export async function writeToExcel(cards)
 
     const excelTab = excelArk.getWorksheet('All');
 
+
+    // Order by Source
     reqSources.forEach(reqSource =>
     {
         let reqSourceCards;
@@ -25,17 +26,27 @@ export async function writeToExcel(cards)
             const sourceCell = excelTab.getColumn('A').values.findIndex(value => value === reqSource);
             arkRow = sourceCell + arkRowBonus; // Get the row number of the cell below the Source.
             const controlCell = excelTab.getCell(`A${arkRow + 1}`);
-            const columns = ['B', 'C', 'E', 'G'];
+            const columns = ['B', 'C', 'D', 'E', 'F', 'G', 'H'];
             const values = 
             [
                 card.title, 
                 card.type ? card.type.charAt(0).toUpperCase() + card.type.slice(1) : '', 
-                card.cost, 
-                card.effectsDescription
+                card.class,
+                card.cost,
+                card.health > 0 || card.dur > 0 ? `${card.atk}/${card.health > 0 ? card.health : card.dur}` : null,
+                card.effectsDescription,
+                Object.entries(Object.assign({}, ...(card.customCardProperties || [])))
+                .filter (([key, count]) => app.keywords.includes(key) && Number(count) > 0)
+                .map 
+                (([key, count]) =>
+                {
+                    const tagName = key.charAt(0).toUpperCase() + key.slice(1);
+                    const tagValue = Number(count);
+                    return tagValue > 1 ? `${tagName} (${tagValue})` : tagName
+                }) 
             ];
-            
     
-            // ENSURE THERE IS SPACE FOR THE CARD
+            // ENSURE THERE IS SPACE FOR THE CARD. If not create a new row
             if (controlCell.fill?.fgColor?.argb || controlCell.fill?.bgColor?.argb)
             {
                 excelTab.spliceRows(arkRow + 1, 0, []);
@@ -64,6 +75,7 @@ export async function writeToExcel(cards)
             columns.forEach((column, value) =>
             {
                 const cell = excelTab.getCell(`${column}${arkRow}`)
+                const val = values[value]
                 
                 const defaultFont = 
                 {
@@ -72,7 +84,7 @@ export async function writeToExcel(cards)
                     bgColor: { argb: 'FFD9D9D9' }, // Grey background
                 };
                 
-                if (column == 'G')
+                if (column == 'G') // Set effect description (remove html tags)
                 {
                     if (values[value] && values[value].trim())
                     {
@@ -122,7 +134,17 @@ export async function writeToExcel(cards)
                 }
                 else
                 {
-                    cell.value = values[value];
+                    if (val != null) 
+                    { 
+                        if (Array.isArray(val))
+                        {
+                            if (val.length > 0 && val != '') {cell.value = val.join(', ');}
+                            else { cell.value = '---' }
+                        }
+                        else {cell.value = values[value];}
+                        
+                    }
+                    else { cell.value = '---' }
                     // cell.style = { ...defaultFont };
                 }
     

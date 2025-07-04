@@ -7,6 +7,8 @@ const ref = 'master';
 const repositoryPath = `https://dev.dulst.com/api/v4/projects/${projectId}/repository`
 const pageSize = 100; // Number of items per page
 let fullCardContext = [];
+
+
 export async function fetchTree(cardType, propsToExtract)
 {
     const treePath = encodeURIComponent(`src/cards/${cardType}`);
@@ -95,7 +97,6 @@ export async function fetchFile(cardType, propsToExtract, fileName)
 
 export async function fetchAllCards(cardTypes, propsToExtract)
 {
-    fullCardContext = [];
     
     const promises = cardTypes.map(cardType => fetchTree(cardType, propsToExtract));
     await Promise.all(promises);

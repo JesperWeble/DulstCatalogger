@@ -14,13 +14,12 @@ export const keywords = (await fetching.fetchFile('Rule', ['customCardProperties
 
 
 // Run actual program
+
 await exporting.loadExcelArk('Template', 'Full Library')
 await fetching.fetchAllCards(cardTypesToExtract, propsToExtract);
-await exporting.finalize('Output Test')
+await exporting.writeTo('Output Test')
 
 
 
 console.log(`\n`)
 console.timeEnd('Total Time Elapsed');
-
-

@@ -11,6 +11,11 @@ export async function loadExcelArk(ark, tab)
     console.log(`Fetched ${ark}.xlsx on ${tab} Tab\n`)
     await excelArk.xlsx.readFile(`${ark}.xlsx`);
     excelTab = excelArk.getWorksheet(tab);
+    await excelArk.eachSheet(function(worksheet, sheetId)
+    {
+        console.log(`Tab: ${worksheet.name}`)
+        
+    })
 
 }
 
@@ -175,7 +180,7 @@ export async function writeToExcel(cards)
 
 }
 
-export async function finalize(toArk)
+export async function writeTo(toArk)
 {
     await excelArk.xlsx.writeFile(`${toArk}.xlsx`);
     console.log('Excel file updated successfully!');
